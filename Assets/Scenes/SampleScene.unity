@@ -245,6 +245,7 @@ GameObject:
   - component: {fileID: 220333726}
   - component: {fileID: 220333730}
   - component: {fileID: 220333731}
+  - component: {fileID: 220333732}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -389,7 +390,41 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ee8243fdebbef604e995895329978c33, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Player
+  camera: {fileID: 330585546}
   corpo: {fileID: 220333730}
+  velocidade: 9
+  movimentacao: {x: 0, y: 0}
+  olhar: {x: 0, y: 0}
+--- !u!114 &220333732
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 220333725}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62899f850307741f2a39c98a8b639597, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.InputSystem::UnityEngine.InputSystem.PlayerInput
+  m_Actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
+  m_NotificationBehavior: 0
+  m_UIInputModule: {fileID: 0}
+  m_DeviceLostEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  m_DeviceRegainedEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  m_ControlsChangedEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  m_ActionEvents: []
+  m_NeverAutoSwitchControlSchemes: 0
+  m_DefaultControlScheme: 
+  m_DefaultActionMap: 
+  m_SplitScreenIndex: -1
+  m_Camera: {fileID: 0}
 --- !u!1 &267286941
 GameObject:
   m_ObjectHideFlags: 0
