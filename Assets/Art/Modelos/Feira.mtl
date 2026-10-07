@@ -335,3 +335,203 @@ Ks 0.0 0.0 0.0
 d 1.0
 illum 1
 
+# ============================================================
+# Materiais - Barraca de Vestidos e Blusas
+# ============================================================
+
+newmtl roupa_coral
+Ka 0.170 0.055 0.040
+Kd 0.760 0.300 0.220
+Ks 0.0 0.0 0.0
+d 1.0
+illum 1
+
+newmtl roupa_mostarda
+Ka 0.170 0.120 0.025
+Kd 0.820 0.570 0.120
+Ks 0.0 0.0 0.0
+d 1.0
+illum 1
+
+newmtl roupa_verde
+Ka 0.060 0.110 0.060
+Kd 0.320 0.520 0.300
+Ks 0.0 0.0 0.0
+d 1.0
+illum 1
+
+newmtl roupa_azul
+Ka 0.040 0.065 0.120
+Kd 0.220 0.370 0.680
+Ks 0.0 0.0 0.0
+d 1.0
+illum 1
+
+newmtl roupa_roxo
+Ka 0.090 0.055 0.120
+Kd 0.470 0.300 0.650
+Ks 0.0 0.0 0.0
+d 1.0
+illum 1
+
+newmtl roupa_creme
+Ka 0.180 0.160 0.135
+Kd 0.880 0.800 0.650
+Ks 0.0 0.0 0.0
+d 1.0
+illum 1
+
+newmtl faixa_amarela_vestidos
+Ka 0.920 0.740 0.220
+Kd 0.920 0.740 0.220
+Ks 0.0 0.0 0.0
+d 1.0
+illum 1
+
+# ============================================================
+# Materiais - Barraca de Barro
+# ============================================================
+
+newmtl faixa_lilas_barro
+Ka 0.620 0.470 0.820
+Kd 0.620 0.470 0.820
+Ks 0.0 0.0 0.0
+d 1.0
+illum 1
+
+newmtl barro_claro
+Ka 0.860 0.620 0.430
+Kd 0.860 0.620 0.430
+Ks 0.0 0.0 0.0
+d 1.0
+illum 1
+
+newmtl barro_medio
+Ka 0.730 0.470 0.290
+Kd 0.730 0.470 0.290
+Ks 0.0 0.0 0.0
+d 1.0
+illum 1
+
+newmtl barro_terracota
+Ka 0.630 0.350 0.220
+Kd 0.630 0.350 0.220
+Ks 0.0 0.0 0.0
+d 1.0
+illum 1
+
+newmtl barro_rosado
+Ka 0.780 0.520 0.420
+Kd 0.780 0.520 0.420
+Ks 0.0 0.0 0.0
+d 1.0
+illum 1
+
+newmtl barro_areia
+Ka 0.900 0.720 0.520
+Kd 0.900 0.720 0.520
+Ks 0.0 0.0 0.0
+d 1.0
+illum 1
+
+# ============================================================
+# Materiais - Barraca de Bebidas Artesanais
+# ============================================================
+
+newmtl faixa_laranja_bebidas
+Ka 0.950 0.480 0.080
+Kd 0.950 0.480 0.080
+Ks 0.0 0.0 0.0
+d 1.0
+illum 1
+
+newmtl vidro_ambar
+Ka 0.200 0.090 0.025
+Kd 0.600 0.270 0.060
+Ks 0.180 0.120 0.070
+d 1.0
+illum 2
+
+newmtl vidro_verde
+Ka 0.040 0.090 0.035
+Kd 0.120 0.300 0.110
+Ks 0.150 0.150 0.150
+d 1.0
+illum 2
+
+newmtl vidro_transparente
+Ka 0.180 0.160 0.110
+Kd 0.800 0.720 0.480
+Ks 0.220 0.220 0.180
+d 1.0
+illum 2
+
+newmtl vidro_caramelo
+Ka 0.150 0.060 0.020
+Kd 0.480 0.180 0.040
+Ks 0.160 0.110 0.070
+d 1.0
+illum 2
+
+newmtl rotulo_ocre
+Ka 0.210 0.120 0.030
+Kd 0.900 0.560 0.120
+Ks 0.0 0.0 0.0
+d 1.0
+illum 1
+
+newmtl rotulo_creme
+Ka 0.210 0.190 0.145
+Kd 0.950 0.880 0.700
+Ks 0.0 0.0 0.0
+d 1.0
+illum 1
+
+newmtl rotulo_branco
+Ka 0.200 0.200 0.190
+Kd 0.960 0.960 0.920
+Ks 0.0 0.0 0.0
+d 1.0
+illum 1
+
+newmtl tampa_preta
+Ka 0.020 0.020 0.020
+Kd 0.060 0.060 0.060
+Ks 0.120 0.120 0.120
+d 1.0
+illum 2
+
+newmtl tampa_dourada
+Ka 0.200 0.150 0.040
+Kd 0.780 0.580 0.120
+Ks 0.180 0.160 0.080
+d 1.0
+illum 2
+
+newmtl tampa_clara
+Ka 0.190 0.160 0.110
+Kd 0.830 0.720 0.480
+Ks 0.100 0.100 0.080
+d 1.0
+illum 2
+
+newmtl barril_madeira
+Ka 0.190 0.105 0.040
+Kd 0.620 0.340 0.120
+Ks 0.030 0.030 0.030
+d 1.0
+illum 1
+
+newmtl barril_tampo
+Ka 0.160 0.085 0.030
+Kd 0.520 0.270 0.080
+Ks 0.030 0.030 0.030
+d 1.0
+illum 1
+
+newmtl aro_metal
+Ka 0.100 0.100 0.100
+Kd 0.380 0.400 0.420
+Ks 0.250 0.250 0.250
+d 1.0
+illum 2
