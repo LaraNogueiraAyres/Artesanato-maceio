@@ -1,0 +1,337 @@
+# Materiais da feira
+newmtl madeira_escura
+Ka 0.360 0.220 0.120
+Kd 0.360 0.220 0.120
+Ks 0.0 0.0 0.0
+d 1.0
+illum 1
+
+newmtl madeira_clara
+Ka 0.740 0.550 0.340
+Kd 0.740 0.550 0.340
+Ks 0.0 0.0 0.0
+d 1.0
+illum 1
+
+newmtl azul_faixa
+Ka 0.040 0.360 0.710
+Kd 0.040 0.360 0.710
+Ks 0.0 0.0 0.0
+d 1.0
+illum 1
+
+newmtl teto_branco
+Ka 0.920 0.930 0.950
+Kd 0.920 0.930 0.950
+Ks 0.0 0.0 0.0
+d 1.0
+illum 1
+
+newmtl parede
+Ka 0.910 0.860 0.750
+Kd 0.910 0.860 0.750
+Ks 0.0 0.0 0.0
+d 1.0
+illum 1
+
+newmtl metal
+Ka 0.280 0.300 0.330
+Kd 0.280 0.300 0.330
+Ks 0.0 0.0 0.0
+d 1.0
+illum 1
+
+newmtl toalha
+Ka 0.950 0.890 0.700
+Kd 0.950 0.890 0.700
+Ks 0.0 0.0 0.0
+d 1.0
+illum 1
+
+newmtl toldo_a
+Ka 0.850 0.220 0.170
+Kd 0.850 0.220 0.170
+Ks 0.0 0.0 0.0
+d 1.0
+illum 1
+
+newmtl toldo_b
+Ka 0.960 0.940 0.900
+Kd 0.960 0.940 0.900
+Ks 0.0 0.0 0.0
+d 1.0
+illum 1
+
+newmtl tecido_1
+Ka 0.900 0.300 0.450
+Kd 0.900 0.300 0.450
+Ks 0.0 0.0 0.0
+d 1.0
+illum 1
+
+newmtl tecido_2
+Ka 0.980 0.750 0.200
+Kd 0.980 0.750 0.200
+Ks 0.0 0.0 0.0
+d 1.0
+illum 1
+
+newmtl tecido_3
+Ka 0.200 0.600 0.700
+Kd 0.200 0.600 0.700
+Ks 0.0 0.0 0.0
+d 1.0
+illum 1
+
+newmtl tecido_4
+Ka 0.550 0.780 0.350
+Kd 0.550 0.780 0.350
+Ks 0.0 0.0 0.0
+d 1.0
+illum 1
+
+newmtl tecido_5
+Ka 0.950 0.950 0.950
+Kd 0.950 0.950 0.950
+Ks 0.0 0.0 0.0
+d 1.0
+illum 1
+
+newmtl faixa_verde
+Ka 0.100 0.500 0.350
+Kd 0.100 0.500 0.350
+Ks 0.0 0.0 0.0
+d 1.0
+illum 1
+
+newmtl faixa_coral
+Ka 0.850 0.350 0.300
+Kd 0.850 0.350 0.300
+Ks 0.0 0.0 0.0
+d 1.0
+illum 1
+
+newmtl pele
+Ka 0.350 0.200 0.120
+Kd 0.350 0.200 0.120
+Ks 0.0 0.0 0.0
+d 1.0
+illum 1
+
+newmtl chapeu_palha
+Ka 0.860 0.740 0.450
+Kd 0.860 0.740 0.450
+Ks 0.0 0.0 0.0
+d 1.0
+illum 1
+
+newmtl chapeu_vermelho
+Ka 0.750 0.150 0.120
+Kd 0.750 0.150 0.120
+Ks 0.0 0.0 0.0
+d 1.0
+illum 1
+
+newmtl chapeu_escuro
+Ka 0.150 0.120 0.120
+Kd 0.150 0.120 0.120
+Ks 0.0 0.0 0.0
+d 1.0
+illum 1
+
+newmtl chapeu_verde
+Ka 0.150 0.500 0.300
+Kd 0.150 0.500 0.300
+Ks 0.0 0.0 0.0
+d 1.0
+illum 1
+
+newmtl boneco_1
+Ka 0.850 0.250 0.300
+Kd 0.850 0.250 0.300
+Ks 0.0 0.0 0.0
+d 1.0
+illum 1
+
+newmtl boneco_2
+Ka 0.200 0.550 0.750
+Kd 0.200 0.550 0.750
+Ks 0.0 0.0 0.0
+d 1.0
+illum 1
+
+newmtl boneco_3
+Ka 0.950 0.750 0.200
+Kd 0.950 0.750 0.200
+Ks 0.0 0.0 0.0
+d 1.0
+illum 1
+
+newmtl boneco_4
+Ka 0.300 0.650 0.400
+Kd 0.300 0.650 0.400
+Ks 0.0 0.0 0.0
+d 1.0
+illum 1
+
+newmtl boneco_5
+Ka 0.900 0.500 0.150
+Kd 0.900 0.500 0.150
+Ks 0.0 0.0 0.0
+d 1.0
+illum 1
+
+newmtl boneco_6
+Ka 0.650 0.350 0.750
+Kd 0.650 0.350 0.750
+Ks 0.0 0.0 0.0
+d 1.0
+illum 1
+
+newmtl painel_metal
+Ka 0.620 0.660 0.700
+Kd 0.620 0.660 0.700
+Ks 0.0 0.0 0.0
+d 1.0
+illum 1
+
+newmtl azulejo
+Ka 0.930 0.930 0.900
+Kd 0.930 0.930 0.900
+Ks 0.0 0.0 0.0
+d 1.0
+illum 1
+
+newmtl coco
+Ka 0.300 0.170 0.080
+Kd 0.300 0.170 0.080
+Ks 0.0 0.0 0.0
+d 1.0
+illum 1
+
+newmtl flor
+Ka 0.970 0.950 0.880
+Kd 0.970 0.950 0.880
+Ks 0.0 0.0 0.0
+d 1.0
+illum 1
+
+newmtl ima_1
+Ka 0.350 0.650 0.900
+Kd 0.350 0.650 0.900
+Ks 0.0 0.0 0.0
+d 1.0
+illum 1
+
+newmtl ima_2
+Ka 0.950 0.550 0.200
+Kd 0.950 0.550 0.200
+Ks 0.0 0.0 0.0
+d 1.0
+illum 1
+
+newmtl ima_3
+Ka 0.550 0.350 0.750
+Kd 0.550 0.350 0.750
+Ks 0.0 0.0 0.0
+d 1.0
+illum 1
+
+newmtl ima_4
+Ka 0.300 0.700 0.400
+Kd 0.300 0.700 0.400
+Ks 0.0 0.0 0.0
+d 1.0
+illum 1
+
+newmtl ima_5
+Ka 0.150 0.550 0.600
+Kd 0.150 0.550 0.600
+Ks 0.0 0.0 0.0
+d 1.0
+illum 1
+
+newmtl ima_6
+Ka 0.950 0.800 0.250
+Kd 0.950 0.800 0.250
+Ks 0.0 0.0 0.0
+d 1.0
+illum 1
+
+newmtl vela
+Ka 0.970 0.970 0.920
+Kd 0.970 0.970 0.920
+Ks 0.0 0.0 0.0
+d 1.0
+illum 1
+
+newmtl casco
+Ka 0.450 0.280 0.150
+Kd 0.450 0.280 0.150
+Ks 0.0 0.0 0.0
+d 1.0
+illum 1
+
+newmtl renda
+Ka 0.960 0.950 0.900
+Kd 0.960 0.950 0.900
+Ks 0.0 0.0 0.0
+d 1.0
+illum 1
+
+newmtl creme
+Ka 0.900 0.820 0.650
+Kd 0.900 0.820 0.650
+Ks 0.0 0.0 0.0
+d 1.0
+illum 1
+
+newmtl croche
+Ka 0.800 0.600 0.350
+Kd 0.800 0.600 0.350
+Ks 0.0 0.0 0.0
+d 1.0
+illum 1
+
+newmtl pano_1
+Ka 0.930 0.450 0.400
+Kd 0.930 0.450 0.400
+Ks 0.0 0.0 0.0
+d 1.0
+illum 1
+
+newmtl pano_2
+Ka 0.250 0.720 0.720
+Kd 0.250 0.720 0.720
+Ks 0.0 0.0 0.0
+d 1.0
+illum 1
+
+newmtl pano_3
+Ka 0.970 0.800 0.300
+Kd 0.970 0.800 0.300
+Ks 0.0 0.0 0.0
+d 1.0
+illum 1
+
+newmtl pano_4
+Ka 0.930 0.550 0.700
+Kd 0.930 0.550 0.700
+Ks 0.0 0.0 0.0
+d 1.0
+illum 1
+
+newmtl pano_5
+Ka 0.620 0.500 0.800
+Kd 0.620 0.500 0.800
+Ks 0.0 0.0 0.0
+d 1.0
+illum 1
+
+newmtl pano_6
+Ka 0.950 0.600 0.200
+Kd 0.950 0.600 0.200
+Ks 0.0 0.0 0.0
+d 1.0
+illum 1
+
