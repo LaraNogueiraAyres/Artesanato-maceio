@@ -535,3 +535,175 @@ Kd 0.380 0.400 0.420
 Ks 0.250 0.250 0.250
 d 1.0
 illum 2
+
+# Materiais adicionais para ceramica, colocar ao lado do OBJ e da Feira.mtl
+
+newmtl barro_terracota
+Ka 0.560 0.245 0.150
+Kd 0.560 0.245 0.150
+Ks 0.060 0.050 0.040
+Ns 16
+d 1.0
+illum 2
+
+newmtl barro_avermelhado
+Ka 0.480 0.190 0.130
+Kd 0.480 0.190 0.130
+Ks 0.060 0.050 0.040
+Ns 16
+d 1.0
+illum 2
+
+newmtl barro_ocre
+Ka 0.650 0.360 0.200
+Kd 0.650 0.360 0.200
+Ks 0.060 0.050 0.040
+Ns 16
+d 1.0
+illum 2
+
+newmtl barro_argila_clara
+Ka 0.770 0.590 0.390
+Kd 0.770 0.590 0.390
+Ks 0.060 0.050 0.040
+Ns 16
+d 1.0
+illum 2
+
+newmtl barro_queimado
+Ka 0.340 0.210 0.180
+Kd 0.340 0.210 0.180
+Ks 0.060 0.050 0.040
+Ns 16
+d 1.0
+illum 2
+
+newmtl barro_rosa
+Ka 0.680 0.390 0.330
+Kd 0.680 0.390 0.330
+Ks 0.060 0.050 0.040
+Ns 16
+d 1.0
+illum 2
+
+newmtl barro_areia
+Ka 0.710 0.510 0.330
+Kd 0.710 0.510 0.330
+Ks 0.060 0.050 0.040
+Ns 16
+d 1.0
+illum 2
+
+newmtl barro_interior
+Ka 0.350 0.180 0.140
+Kd 0.350 0.180 0.140
+Ks 0.060 0.050 0.040
+Ns 16
+d 1.0
+illum 2
+
+newmtl barro_faixa_creme
+Ka 0.820 0.670 0.480
+Kd 0.820 0.670 0.480
+Ks 0.060 0.050 0.040
+Ns 16
+d 1.0
+illum 2
+
+newmtl barro_faixa_escura
+Ka 0.420 0.240 0.150
+Kd 0.420 0.240 0.150
+Ks 0.060 0.050 0.040
+Ns 16
+d 1.0
+illum 2
+
+# ===== Materiais adicionais: barraca de mel =====
+
+newmtl faixa_amarela_mel
+Ka 0.980 0.720 0.070
+Kd 0.980 0.720 0.070
+Ks 0.060 0.060 0.060
+Ns 12
+d 1.0
+illum 2
+
+newmtl mel_dourado
+Ka 0.850 0.470 0.050
+Kd 0.850 0.470 0.050
+Ks 0.240 0.240 0.240
+Ns 55
+d 1.0
+illum 2
+
+newmtl mel_ambar
+Ka 0.680 0.310 0.025
+Kd 0.680 0.310 0.025
+Ks 0.230 0.230 0.230
+Ns 55
+d 1.0
+illum 2
+
+newmtl mel_caramelo
+Ka 0.540 0.250 0.035
+Kd 0.540 0.250 0.035
+Ks 0.220 0.220 0.220
+Ns 55
+d 1.0
+illum 2
+
+newmtl mel_ambar_claro
+Ka 0.960 0.610 0.120
+Kd 0.960 0.610 0.120
+Ks 0.250 0.250 0.250
+Ns 55
+d 1.0
+illum 2
+
+newmtl tampa_mel_dourada
+Ka 0.720 0.510 0.180
+Kd 0.720 0.510 0.180
+Ks 0.200 0.200 0.200
+Ns 42
+d 1.0
+illum 2
+
+newmtl tampa_mel_clara
+Ka 0.940 0.870 0.640
+Kd 0.940 0.870 0.640
+Ks 0.100 0.100 0.100
+Ns 32
+d 1.0
+illum 2
+
+newmtl tampa_mel_cobre
+Ka 0.570 0.340 0.140
+Kd 0.570 0.340 0.140
+Ks 0.160 0.160 0.160
+Ns 40
+d 1.0
+illum 2
+
+newmtl rotulo_mel_creme
+Ka 0.970 0.890 0.670
+Kd 0.970 0.890 0.670
+Ks 0.020 0.020 0.020
+Ns 8
+d 1.0
+illum 2
+
+newmtl rotulo_mel_palha
+Ka 0.920 0.750 0.390
+Kd 0.920 0.750 0.390
+Ks 0.020 0.020 0.020
+Ns 8
+d 1.0
+illum 2
+
+newmtl mel_friso_ouro
+Ka 0.680 0.460 0.080
+Kd 0.680 0.460 0.080
+Ks 0.150 0.150 0.150
+Ns 35
+d 1.0
+illum 2
