@@ -1,0 +1,12 @@
+[1mdiff --git a/.vscode/settings.json b/.vscode/settings.json[m
+[1mindex 06741c4..cc8ca40 100644[m
+[1m--- a/.vscode/settings.json[m
+[1m+++ b/.vscode/settings.json[m
+[36m@@ -67,5 +67,5 @@[m
+         "*.sln": "*.csproj",[m
+         "*.slnx": "*.csproj"[m
+     },[m
+[31m-    "dotnet.defaultSolution": "Artesanato-maceio.slnx"[m
+[32m+[m[32m    "dotnet.defaultSolution": "My project (1).slnx"[m
+ }[m
+\ No newline at end of file[m
