@@ -88,27 +88,38 @@ public static class FeiraPersonagensBuilder
         var prefab = AssetDatabase.LoadAssetAtPath<GameObject>(PastaPrefabs + "/Cliente.prefab");
         if (prefab == null) { EditorUtility.DisplayDialog("Feira", "Gere os prefabs primeiro (menu 1).", "OK"); return; }
 
+        Physics.SyncTransforms();
+
         var player = GameObject.FindWithTag("Player");
         Vector3 centro = player ? player.transform.position : Vector3.zero;
-        float chaoY = centro.y - 1f; // pés do player
+
+        // Descobre a altura real do chão olhando para baixo a partir do Player
+        if (!Physics.Raycast(centro + Vector3.up * 0.5f, Vector3.down, out RaycastHit h0, 20f, ~0, QueryTriggerInteraction.Ignore))
+        {
+            Debug.LogWarning("Nenhum chao encontrado embaixo do Player. O Piso esta abaixo/acima demais ou sem Collider?");
+            return;
+        }
+        float chaoY = h0.point.y;
 
         var pai = new GameObject("Clientes");
         Undo.RegisterCreatedObjectUndo(pai, "Clientes");
 
         var usados = new List<Vector3>();
         int criados = 0, tentativas = 0;
-        while (criados < 8 && tentativas++ < 600)
+        int semChao = 0, alturaDiferente = 0, obstaculo = 0, pertoDemais = 0;
+
+        while (criados < 8 && tentativas++ < 1000)
         {
             Vector2 c = Random.insideUnitCircle * 14f;
-            Vector3 origem = new Vector3(centro.x + c.x, centro.y, centro.z + c.y);
-            if (!Physics.Raycast(origem, Vector3.down, out RaycastHit hit, 5f, ~0, QueryTriggerInteraction.Ignore)) continue;
-            if (Mathf.Abs(hit.point.y - chaoY) > 0.25f || hit.normal.y < 0.9f) continue;
-            if (Physics.CheckCapsule(hit.point + Vector3.up * 0.4f, hit.point + Vector3.up * 1.6f, 0.4f, ~0, QueryTriggerInteraction.Ignore)) continue;
-            if ((hit.point - centro).sqrMagnitude < 4f) continue;
+            Vector3 origem = new Vector3(centro.x + c.x, chaoY + 1.5f, centro.z + c.y);
 
-            bool perto = false;
+            if (!Physics.Raycast(origem, Vector3.down, out RaycastHit hit, 4f, ~0, QueryTriggerInteraction.Ignore)) { semChao++; continue; }
+            if (Mathf.Abs(hit.point.y - chaoY) > 0.3f || hit.normal.y < 0.8f) { alturaDiferente++; continue; }
+            if (Physics.CheckCapsule(hit.point + Vector3.up * 0.35f, hit.point + Vector3.up * 1.65f, 0.3f, ~0, QueryTriggerInteraction.Ignore)) { obstaculo++; continue; }
+
+            bool perto = (hit.point - centro).sqrMagnitude < 4f;
             foreach (var u in usados) if ((u - hit.point).sqrMagnitude < 2.25f) { perto = true; break; }
-            if (perto) continue;
+            if (perto) { pertoDemais++; continue; }
 
             var inst = (GameObject)PrefabUtility.InstantiatePrefab(prefab);
             Undo.RegisterCreatedObjectUndo(inst, "Cliente");
@@ -119,7 +130,12 @@ public static class FeiraPersonagensBuilder
             usados.Add(hit.point);
             criados++;
         }
-        Debug.Log(criados + " clientes criados. (Se vieram poucos, verifique se o Piso tem Collider.)");
+
+        Debug.Log(criados + " clientes criados. Pontos rejeitados -> sem chao: " + semChao +
+                  ", altura diferente: " + alturaDiferente + ", obstaculo: " + obstaculo +
+                  ", perto demais: " + pertoDemais);
+
+        if (criados == 0) Undo.DestroyObjectImmediate(pai);
     }
 
     // ------------------------------------------------------------ CONSTRUÇÃO
