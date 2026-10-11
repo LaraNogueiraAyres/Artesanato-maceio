@@ -31,13 +31,13 @@ public class Player : MonoBehaviour
 
     void OnMove(InputValue value)
     {
-        Debug.Log("Movimentando" + movimentacao);
+        //Debug.Log("Movimentando" + movimentacao);
         movimentacao = value.Get<Vector2>();
     }
 
     void OnLook(InputValue value)
     {
-        Debug.Log("Olhando" + olhar);
+        //Debug.Log("Olhando" + olhar);
         olhar = value.Get<Vector2>();   
     }
 
