@@ -27,6 +27,8 @@ public class InteracaoBarraca : MonoBehaviour
 
     void Update()
     {
+        if (GameEstado.Pausado) return;
+        
         if (textoInteracao != null)
             textoInteracao.gameObject.SetActive(jogadorPerto && !dialogoAberto);
 
