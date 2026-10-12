@@ -23,6 +23,8 @@ public class Player : MonoBehaviour
 
     void Update()
     {
+        if (GameEstado.Pausado || GameEstado.DialogoAberto) return;
+        
         Vector3 arrumandoMov = new Vector3(movimentacao.x, 0.0f, movimentacao.y);
 
         Vector3 direcaoMundo = transform.TransformDirection(arrumandoMov);

@@ -37,6 +37,7 @@ public class InterfaceFeira : MonoBehaviour
     {
         Time.timeScale = 1f;
         GameEstado.Pausado = false;
+        GameEstado.DialogoAberto = false;
     }
 
     void Start()
@@ -69,7 +70,7 @@ public class InterfaceFeira : MonoBehaviour
             else if (menu.activeSelf) { if (jogoIniciado) Jogar(); }
             else AbrirMenu();
         }
-        else if ((k.tabKey.wasPressedThisFrame || k.iKey.wasPressedThisFrame) && !menu.activeSelf)
+        else if ((k.tabKey.wasPressedThisFrame || k.iKey.wasPressedThisFrame) && !menu.activeSelf && !GameEstado.DialogoAberto)
         {
             if (inventario.activeSelf) FecharInventario();
             else AbrirInventario();
@@ -168,7 +169,13 @@ public class InterfaceFeira : MonoBehaviour
     {
         GameEstado.Pausado = pausar;
         Time.timeScale = pausar ? 0f : 1f;
-        Cursor.visible = pausar || !travarCursorNoJogo;
-        Cursor.lockState = (pausar || !travarCursorNoJogo) ? CursorLockMode.None : CursorLockMode.Locked;
+        AtualizarCursor();
+    }
+
+    public void AtualizarCursor()
+    {
+        bool livre = GameEstado.Pausado || GameEstado.DialogoAberto || !travarCursorNoJogo;
+        Cursor.visible = livre;
+        Cursor.lockState = livre ? CursorLockMode.None : CursorLockMode.Locked;
     }
 }
