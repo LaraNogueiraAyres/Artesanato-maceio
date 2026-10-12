@@ -1,0 +1,40 @@
+# Materiais do vaso de barro sem planta
+newmtl planta_barro_sombra
+Ka 0.18 0.09 0.04
+Kd 0.28 0.14 0.07
+Ks 0.03 0.02 0.01
+Ns 10.0
+d 1.0
+illum 2
+
+newmtl planta_barro_claro
+Ka 0.35 0.18 0.08
+Kd 0.63 0.35 0.18
+Ks 0.06 0.04 0.03
+Ns 18.0
+d 1.0
+illum 2
+
+newmtl planta_barro_corpo
+Ka 0.31 0.15 0.07
+Kd 0.56 0.29 0.14
+Ks 0.04 0.03 0.02
+Ns 14.0
+d 1.0
+illum 2
+
+newmtl planta_barro_anel
+Ka 0.25 0.12 0.05
+Kd 0.46 0.23 0.10
+Ks 0.03 0.02 0.01
+Ns 12.0
+d 1.0
+illum 2
+
+newmtl planta_barro_interno
+Ka 0.14 0.08 0.04
+Kd 0.23 0.13 0.07
+Ks 0.02 0.02 0.02
+Ns 8.0
+d 1.0
+illum 2
