@@ -1,0 +1,33 @@
+# Materiais do pote de mel
+newmtl mel_frasco_plastico
+Ka 0.30 0.16 0.02
+Kd 0.95 0.55 0.08
+Ks 0.60 0.55 0.40
+Ns 120
+d 0.38
+illum 2
+
+newmtl mel_liquido
+Ka 0.30 0.14 0.01
+Kd 0.88 0.46 0.04
+Ks 0.45 0.35 0.15
+Ns 90
+d 1.0
+illum 2
+
+newmtl mel_tampa_amarela
+Ka 0.30 0.25 0.01
+Kd 0.98 0.80 0.04
+Ks 0.30 0.28 0.10
+Ns 50
+d 1.0
+illum 2
+
+newmtl mel_rotulo
+Ka 1 1 1
+Kd 1 1 1
+Ks 0.10 0.10 0.10
+Ns 20
+d 1.0
+illum 2
+map_Kd Mel_Squeeze_1kg_rotulo.png
