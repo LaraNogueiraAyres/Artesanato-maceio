@@ -9936,11 +9936,7 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 659930010}
   m_CullTransparentMesh: 1
-<<<<<<< HEAD
---- !u!1 &663423525
-=======
 --- !u!1 &665558284
->>>>>>> d057404f37b093742a9716156e77c09d604648cb
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -9948,47 +9944,22 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-<<<<<<< HEAD
-  - component: {fileID: 663423526}
-  - component: {fileID: 663423528}
-  - component: {fileID: 663423527}
-  m_Layer: 0
-  m_Name: AreaInteracao (2)
-=======
   - component: {fileID: 665558285}
   - component: {fileID: 665558287}
   - component: {fileID: 665558286}
   m_Layer: 0
   m_Name: garrafa_prateleira_03 (2)
->>>>>>> d057404f37b093742a9716156e77c09d604648cb
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
   m_IsActive: 1
-<<<<<<< HEAD
---- !u!4 &663423526
-=======
 --- !u!4 &665558285
->>>>>>> d057404f37b093742a9716156e77c09d604648cb
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-<<<<<<< HEAD
-  m_GameObject: {fileID: 663423525}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -1, z: -0, w: 0}
-  m_LocalPosition: {x: -0.21, y: 0, z: 1.3}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 685806127}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &663423527
-MonoBehaviour:
-=======
   m_GameObject: {fileID: 665558284}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
@@ -10000,37 +9971,10 @@ MonoBehaviour:
   m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
 --- !u!23 &665558286
 MeshRenderer:
->>>>>>> d057404f37b093742a9716156e77c09d604648cb
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-<<<<<<< HEAD
-  m_GameObject: {fileID: 663423525}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1e29c4abfc80bfd4fb0db56fc868584f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::InteracaoBarraca
-  nomeBarraca: Barraca de Barro
-  mensagem: "Bem-vindo \xE0 barraca de artefatos de barro! O artesanato de barrro \xE9 uma forma de arte milenar que se transformou em tradi\xE7\xE3o no Nordeste."
-  nomeItem: Jarro de barro
-  quantidadeItem: 1
-  preco: 18
-  idObjetivo: barro
-  textoObjetivo: Comprar um jarro de barro
-  ordem: 1
-  pergunta: "O jarro custa 25 reais. Mas hoje est\xE1 com 10% de desconto. Quanto voc\xEA pagar\xE1 no jarro? "
-  alternativas:
-  - R$ 21,50
-  - R$ 22,50
-  - R$ 22,00
-  - R$ 21,00
-  respostaCorreta: 1
-  curiosidade: 
---- !u!65 &663423528
-BoxCollider:
-=======
   m_GameObject: {fileID: 665558284}
   m_Enabled: 1
   m_CastShadows: 1
@@ -10078,31 +10022,12 @@ BoxCollider:
   m_AdditionalVertexStreams: {fileID: 0}
 --- !u!33 &665558287
 MeshFilter:
->>>>>>> d057404f37b093742a9716156e77c09d604648cb
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-<<<<<<< HEAD
-  m_GameObject: {fileID: 663423525}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 1
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 4.492416, y: 2.700808, z: 4.0920506}
-  m_Center: {x: -0.000753975, y: 1.1495968, z: 0.25982106}
-=======
   m_GameObject: {fileID: 665558284}
   m_Mesh: {fileID: 2460257367986170794, guid: f47c95f90bc14e649961798aff58879b, type: 3}
->>>>>>> d057404f37b093742a9716156e77c09d604648cb
 --- !u!1 &667139906
 GameObject:
   m_ObjectHideFlags: 0
@@ -10838,7 +10763,7 @@ PrefabInstance:
       addedObject: {fileID: 385348608}
     - targetCorrespondingSourceObject: {fileID: -8679921383154817045, guid: dff85252152c662489f8d2fb49b73312, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 663423526}
+      addedObject: {fileID: 1184245391}
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dff85252152c662489f8d2fb49b73312, type: 3}
 --- !u!4 &685806127 stripped
@@ -12922,11 +12847,7 @@ MonoBehaviour:
   m_ChildScaleWidth: 0
   m_ChildScaleHeight: 0
   m_ReverseArrangement: 0
-<<<<<<< HEAD
---- !u!1 &824722935
-=======
 --- !u!1 &818537742
->>>>>>> d057404f37b093742a9716156e77c09d604648cb
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -12934,47 +12855,22 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-<<<<<<< HEAD
-  - component: {fileID: 824722936}
-  - component: {fileID: 824722938}
-  - component: {fileID: 824722937}
-  m_Layer: 0
-  m_Name: AreaInteracao (4)
-=======
   - component: {fileID: 818537743}
   - component: {fileID: 818537745}
   - component: {fileID: 818537744}
   m_Layer: 0
   m_Name: barril_01 (9)
->>>>>>> d057404f37b093742a9716156e77c09d604648cb
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
   m_IsActive: 1
-<<<<<<< HEAD
---- !u!4 &824722936
-=======
 --- !u!4 &818537743
->>>>>>> d057404f37b093742a9716156e77c09d604648cb
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-<<<<<<< HEAD
-  m_GameObject: {fileID: 824722935}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: 1, z: -0, w: -0.00007095932}
-  m_LocalPosition: {x: 0.25993, y: 0, z: 1.55}
-  m_LocalScale: {x: 0.9880489, y: 1, z: 0.7962962}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 2093787150}
-  m_LocalEulerAnglesHint: {x: 0, y: 180.008, z: 0}
---- !u!114 &824722937
-MonoBehaviour:
-=======
   m_GameObject: {fileID: 818537742}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
@@ -12986,37 +12882,10 @@ MonoBehaviour:
   m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
 --- !u!23 &818537744
 MeshRenderer:
->>>>>>> d057404f37b093742a9716156e77c09d604648cb
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-<<<<<<< HEAD
-  m_GameObject: {fileID: 824722935}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1e29c4abfc80bfd4fb0db56fc868584f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::InteracaoBarraca
-  nomeBarraca: Barraca de Ima
-  mensagem: "Bem-vindo \xE0 barraca de im\xE3s! Leve uma lembran\xE7a de Macei\xF3 para a sua casa!"
-  nomeItem: Ima
-  quantidadeItem: 1
-  preco: 18
-  idObjetivo: Ima
-  textoObjetivo: "Comprar tr\xEAs im\xE3s"
-  ordem: 3
-  pergunta: "O im\xE3 custa 8 reais, mas tr\xEAs im\xE3s custam 20 reais. Qual \xE9 o valor do desconto? "
-  alternativas:
-  - R$ 4,00
-  - R$ 5,00
-  - R$ 3,00
-  - R$ 6,00
-  respostaCorreta: 0
-  curiosidade: 
---- !u!65 &824722938
-BoxCollider:
-=======
   m_GameObject: {fileID: 818537742}
   m_Enabled: 1
   m_CastShadows: 1
@@ -13065,28 +12934,10 @@ BoxCollider:
   m_AdditionalVertexStreams: {fileID: 0}
 --- !u!33 &818537745
 MeshFilter:
->>>>>>> d057404f37b093742a9716156e77c09d604648cb
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-<<<<<<< HEAD
-  m_GameObject: {fileID: 824722935}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 1
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 4.492416, y: 2.700808, z: 4.0920506}
-  m_Center: {x: -0.000753975, y: 1.1495968, z: 0.25982106}
-=======
   m_GameObject: {fileID: 818537742}
   m_Mesh: {fileID: 6485222062694387603, guid: f47c95f90bc14e649961798aff58879b, type: 3}
 --- !u!1 &826805442
@@ -13181,7 +13032,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 826805442}
   m_Mesh: {fileID: 4226435398323407325, guid: f47c95f90bc14e649961798aff58879b, type: 3}
->>>>>>> d057404f37b093742a9716156e77c09d604648cb
 --- !u!1 &832575517
 GameObject:
   m_ObjectHideFlags: 0
@@ -13882,9 +13732,6 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: -8679921383154817045, guid: 2b9e73c410c9e494ba8a67f3b2d65150, type: 3}
       insertIndex: -1
       addedObject: {fileID: 265213140}
-    - targetCorrespondingSourceObject: {fileID: -8679921383154817045, guid: 2b9e73c410c9e494ba8a67f3b2d65150, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1595338015}
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2b9e73c410c9e494ba8a67f3b2d65150, type: 3}
 --- !u!4 &867372899 stripped
@@ -15830,6 +15677,7 @@ Transform:
   - {fileID: 1100800698}
   - {fileID: 357164078}
   - {fileID: 478731582}
+  - {fileID: 1852712299}
   - {fileID: 292154201}
   - {fileID: 1036857238}
   - {fileID: 708540187}
@@ -16643,23 +16491,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5566987434348603669, guid: 225aaca584cdda742ba722551482cbaa, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 6.55
+      value: -10.97444
       objectReference: {fileID: 0}
     - target: {fileID: 5566987434348603669, guid: 225aaca584cdda742ba722551482cbaa, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5566987434348603669, guid: 225aaca584cdda742ba722551482cbaa, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5566987434348603669, guid: 225aaca584cdda742ba722551482cbaa, type: 3}
-      propertyPath: m_LocalRotation.y
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5566987434348603669, guid: 225aaca584cdda742ba722551482cbaa, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5566987434348603669, guid: 225aaca584cdda742ba722551482cbaa, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5566987434348603669, guid: 225aaca584cdda742ba722551482cbaa, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 5566987434348603669, guid: 225aaca584cdda742ba722551482cbaa, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -16667,7 +16515,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5566987434348603669, guid: 225aaca584cdda742ba722551482cbaa, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 180
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5566987434348603669, guid: 225aaca584cdda742ba722551482cbaa, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
@@ -17542,6 +17390,63 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1090723809}
   m_CullTransparentMesh: 1
+--- !u!1001 &1095845929
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 953328955}
+    m_Modifications:
+    - target: {fileID: 3899975520890597445, guid: 225aaca584cdda742ba722551482cbaa, type: 3}
+      propertyPath: m_Name
+      value: Vendedor_Barraca_Bonecos 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5566987434348603669, guid: 225aaca584cdda742ba722551482cbaa, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 6.52544
+      objectReference: {fileID: 0}
+    - target: {fileID: 5566987434348603669, guid: 225aaca584cdda742ba722551482cbaa, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5566987434348603669, guid: 225aaca584cdda742ba722551482cbaa, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -3.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 5566987434348603669, guid: 225aaca584cdda742ba722551482cbaa, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5566987434348603669, guid: 225aaca584cdda742ba722551482cbaa, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5566987434348603669, guid: 225aaca584cdda742ba722551482cbaa, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5566987434348603669, guid: 225aaca584cdda742ba722551482cbaa, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5566987434348603669, guid: 225aaca584cdda742ba722551482cbaa, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5566987434348603669, guid: 225aaca584cdda742ba722551482cbaa, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5566987434348603669, guid: 225aaca584cdda742ba722551482cbaa, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 225aaca584cdda742ba722551482cbaa, type: 3}
 --- !u!1 &1098407088
 GameObject:
   m_ObjectHideFlags: 0
@@ -19886,8 +19791,6 @@ Transform:
   - {fileID: 1990904234}
   m_Father: {fileID: 1513760829}
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
-<<<<<<< HEAD
-=======
 --- !u!1 &1184245390
 GameObject:
   m_ObjectHideFlags: 0
@@ -20063,7 +19966,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1184399249}
   m_Mesh: {fileID: 6485222062694387603, guid: f47c95f90bc14e649961798aff58879b, type: 3}
->>>>>>> d057404f37b093742a9716156e77c09d604648cb
 --- !u!1001 &1189365958
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -25400,11 +25302,7 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 4.6427255, y: 3.518531, z: 3.5177183}
   m_Center: {x: 3.2408592e-17, y: 1.6192364, z: 0.10456109}
-<<<<<<< HEAD
---- !u!1 &1595338014
-=======
 --- !u!1 &1593089569
->>>>>>> d057404f37b093742a9716156e77c09d604648cb
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -25412,47 +25310,22 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-<<<<<<< HEAD
-  - component: {fileID: 1595338015}
-  - component: {fileID: 1595338017}
-  - component: {fileID: 1595338016}
-  m_Layer: 0
-  m_Name: AreaInteracao (3)
-=======
   - component: {fileID: 1593089570}
   - component: {fileID: 1593089572}
   - component: {fileID: 1593089571}
   m_Layer: 0
   m_Name: garrafa_prateleira_06 (4)
->>>>>>> d057404f37b093742a9716156e77c09d604648cb
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
   m_IsActive: 1
-<<<<<<< HEAD
---- !u!4 &1595338015
-=======
 --- !u!4 &1593089570
->>>>>>> d057404f37b093742a9716156e77c09d604648cb
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-<<<<<<< HEAD
-  m_GameObject: {fileID: 1595338014}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
-  m_LocalPosition: {x: -0.019519, y: 0, z: 1.16}
-  m_LocalScale: {x: 1.16298, y: 1, z: 0.8333334}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 867372899}
-  m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
---- !u!114 &1595338016
-MonoBehaviour:
-=======
   m_GameObject: {fileID: 1593089569}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
@@ -25464,37 +25337,10 @@ MonoBehaviour:
   m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
 --- !u!23 &1593089571
 MeshRenderer:
->>>>>>> d057404f37b093742a9716156e77c09d604648cb
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-<<<<<<< HEAD
-  m_GameObject: {fileID: 1595338014}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1e29c4abfc80bfd4fb0db56fc868584f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::InteracaoBarraca
-  nomeBarraca: Barraca de Ima
-  mensagem: "Bem-vindo \xE0 barraca de im\xE3s! Leve uma lembran\xE7a de Macei\xF3 para a sua casa!"
-  nomeItem: Ima
-  quantidadeItem: 1
-  preco: 18
-  idObjetivo: Ima
-  textoObjetivo: "Comprar tr\xEAs im\xE3s"
-  ordem: 3
-  pergunta: "O im\xE3 custa 8 reais, mas tr\xEAs im\xE3s custam 20 reais. Qual \xE9 o valor do desconto? "
-  alternativas:
-  - R$ 4,00
-  - R$ 5,00
-  - R$ 3,00
-  - R$ 6,00
-  respostaCorreta: 0
-  curiosidade: 
---- !u!65 &1595338017
-BoxCollider:
-=======
   m_GameObject: {fileID: 1593089569}
   m_Enabled: 1
   m_CastShadows: 1
@@ -25542,28 +25388,10 @@ BoxCollider:
   m_AdditionalVertexStreams: {fileID: 0}
 --- !u!33 &1593089572
 MeshFilter:
->>>>>>> d057404f37b093742a9716156e77c09d604648cb
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-<<<<<<< HEAD
-  m_GameObject: {fileID: 1595338014}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 1
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 4.492416, y: 2.700808, z: 4.0920506}
-  m_Center: {x: -0.000753975, y: 1.1495968, z: 0.25982106}
-=======
   m_GameObject: {fileID: 1593089569}
   m_Mesh: {fileID: 4285117283072585120, guid: f47c95f90bc14e649961798aff58879b, type: 3}
 --- !u!1 &1594218342
@@ -25658,7 +25486,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1594218342}
   m_Mesh: {fileID: 596514668118841675, guid: f47c95f90bc14e649961798aff58879b, type: 3}
->>>>>>> d057404f37b093742a9716156e77c09d604648cb
 --- !u!1 &1595451232
 GameObject:
   m_ObjectHideFlags: 0
@@ -28569,8 +28396,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: -128}
   m_SizeDelta: {x: -64, y: 64}
   m_Pivot: {x: 0.5, y: 1}
-<<<<<<< HEAD
-=======
 --- !u!1 &1834060695
 GameObject:
   m_ObjectHideFlags: 0
@@ -28668,7 +28493,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 5566987434348603669, guid: 225aaca584cdda742ba722551482cbaa, type: 3}
   m_PrefabInstance: {fileID: 1095845929}
   m_PrefabAsset: {fileID: 0}
->>>>>>> d057404f37b093742a9716156e77c09d604648cb
 --- !u!1001 &1861101487
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -32282,12 +32106,12 @@ MonoBehaviour:
   idObjetivo: barro
   textoObjetivo: Comprar um jarro de barro
   ordem: 1
-  pergunta: "O jarro custa 25 reais. Mas hoje est\xE1 com 10% de desconto. Quanto voc\xEA pagar\xE1 no jarro? "
+  pergunta: "O jarro custa 20 reais. Mas hoje est\xE1 com 10% de desconto. Quanto voc\xEA pagar\xE1 no jarro? "
   alternativas:
-  - R$ 21,50
-  - R$ 22,50
-  - R$ 22,00
-  - R$ 21,00
+  - R$ 74,00
+  - R$ 76,00
+  - R$ 80,00
+  - R$ 82,00
   respostaCorreta: 1
   curiosidade: 
 --- !u!65 &2054647694
@@ -32764,9 +32588,6 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: -8679921383154817045, guid: 2b9e73c410c9e494ba8a67f3b2d65150, type: 3}
       insertIndex: -1
       addedObject: {fileID: 867427469}
-    - targetCorrespondingSourceObject: {fileID: -8679921383154817045, guid: 2b9e73c410c9e494ba8a67f3b2d65150, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 824722936}
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2b9e73c410c9e494ba8a67f3b2d65150, type: 3}
 --- !u!4 &2093787150 stripped
