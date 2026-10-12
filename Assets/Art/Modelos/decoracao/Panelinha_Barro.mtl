@@ -1,0 +1,40 @@
+# Argila/terracota artesanal; materiais compativeis com a familia planta_barro
+newmtl planta_barro_corpo
+Ka 0.340 0.160 0.093
+Kd 0.660 0.313 0.183
+Ks 0.045 0.025 0.018
+d 1.0
+illum 2
+Ns 11
+
+newmtl planta_barro_sombra
+Ka 0.165 0.078 0.052
+Kd 0.372 0.173 0.106
+Ks 0.018 0.014 0.012
+d 1.0
+illum 2
+Ns 6
+
+newmtl planta_barro_anel
+Ka 0.313 0.133 0.075
+Kd 0.590 0.265 0.149
+Ks 0.032 0.018 0.014
+d 1.0
+illum 2
+Ns 9
+
+newmtl planta_barro_claro
+Ka 0.393 0.214 0.129
+Kd 0.740 0.405 0.243
+Ks 0.055 0.030 0.021
+d 1.0
+illum 2
+Ns 13
+
+newmtl planta_barro_interno
+Ka 0.249 0.128 0.085
+Kd 0.480 0.242 0.163
+Ks 0.021 0.014 0.010
+d 1.0
+illum 2
+Ns 7
