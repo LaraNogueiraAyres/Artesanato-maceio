@@ -1,0 +1,40 @@
+# Materiais do vaso de barro (terracota)
+newmtl planta_barro_corpo
+Ka 0.30 0.14 0.08
+Kd 0.78 0.40 0.25
+Ks 0.08 0.06 0.05
+Ns 18
+d 1.0
+illum 2
+
+newmtl planta_barro_claro
+Ka 0.34 0.18 0.11
+Kd 0.86 0.52 0.34
+Ks 0.08 0.06 0.05
+Ns 18
+d 1.0
+illum 2
+
+newmtl planta_barro_anel
+Ka 0.26 0.12 0.07
+Kd 0.70 0.34 0.20
+Ks 0.06 0.05 0.04
+Ns 14
+d 1.0
+illum 2
+
+newmtl planta_barro_sombra
+Ka 0.20 0.10 0.06
+Kd 0.55 0.27 0.17
+Ks 0.04 0.04 0.04
+Ns 10
+d 1.0
+illum 2
+
+newmtl planta_barro_interno
+Ka 0.18 0.09 0.05
+Kd 0.48 0.24 0.15
+Ks 0.03 0.03 0.03
+Ns 8
+d 1.0
+illum 2
