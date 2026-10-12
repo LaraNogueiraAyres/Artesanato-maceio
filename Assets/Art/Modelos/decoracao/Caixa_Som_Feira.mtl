@@ -1,0 +1,145 @@
+# Materiais RGB (Kd) sem texturas externas
+
+newmtl preto_fosco
+Ka 0.0750 0.0800 0.0920
+Kd 0.0750 0.0800 0.0920
+Ks 0.055 0.055 0.055
+Ns 16
+d 1.0
+illum 2
+
+newmtl preto_grafite
+Ka 0.1250 0.1330 0.1470
+Kd 0.1250 0.1330 0.1470
+Ks 0.055 0.055 0.055
+Ns 16
+d 1.0
+illum 2
+
+newmtl borracha_preta
+Ka 0.0280 0.0320 0.0370
+Kd 0.0280 0.0320 0.0370
+Ks 0.055 0.055 0.055
+Ns 16
+d 1.0
+illum 2
+
+newmtl borda_metalica
+Ka 0.2000 0.2150 0.2350
+Kd 0.2000 0.2150 0.2350
+Ks 0.055 0.055 0.055
+Ns 16
+d 1.0
+illum 2
+
+newmtl painel_controles
+Ka 0.0920 0.0990 0.1100
+Kd 0.0920 0.0990 0.1100
+Ks 0.055 0.055 0.055
+Ns 16
+d 1.0
+illum 2
+
+newmtl grade_fundo
+Ka 0.0350 0.0410 0.0470
+Kd 0.0350 0.0410 0.0470
+Ks 0.055 0.055 0.055
+Ns 16
+d 1.0
+illum 2
+
+newmtl grade_metal
+Ka 0.1550 0.1620 0.1700
+Kd 0.1550 0.1620 0.1700
+Ks 0.055 0.055 0.055
+Ns 16
+d 1.0
+illum 2
+
+newmtl grade_sombra
+Ka 0.0950 0.1030 0.1160
+Kd 0.0950 0.1030 0.1160
+Ks 0.055 0.055 0.055
+Ns 16
+d 1.0
+illum 2
+
+newmtl alto_falante
+Ka 0.0850 0.0910 0.1000
+Kd 0.0850 0.0910 0.1000
+Ks 0.055 0.055 0.055
+Ns 16
+d 1.0
+illum 2
+
+newmtl cone_cinza
+Ka 0.1450 0.1510 0.1640
+Kd 0.1450 0.1510 0.1640
+Ks 0.055 0.055 0.055
+Ns 16
+d 1.0
+illum 2
+
+newmtl centro_cone
+Ka 0.0450 0.0480 0.0550
+Kd 0.0450 0.0480 0.0550
+Ks 0.055 0.055 0.055
+Ns 16
+d 1.0
+illum 2
+
+newmtl amarelo_destaque
+Ka 0.9700 0.7900 0.0350
+Kd 0.9700 0.7900 0.0350
+Ks 0.055 0.055 0.055
+Ns 16
+d 1.0
+illum 2
+
+newmtl amarelo_led
+Ka 0.9900 0.9100 0.1600
+Kd 0.9900 0.9100 0.1600
+Ks 0.055 0.055 0.055
+Ns 16
+d 1.0
+illum 2
+
+newmtl amarelo_sombra
+Ka 0.5900 0.4200 0.0220
+Kd 0.5900 0.4200 0.0220
+Ks 0.055 0.055 0.055
+Ns 16
+d 1.0
+illum 2
+
+newmtl botao_prata
+Ka 0.4100 0.4400 0.4700
+Kd 0.4100 0.4400 0.4700
+Ks 0.055 0.055 0.055
+Ns 16
+d 1.0
+illum 2
+
+newmtl visor_preto
+Ka 0.0180 0.0240 0.0270
+Kd 0.0180 0.0240 0.0270
+Ks 0.055 0.055 0.055
+Ns 16
+d 1.0
+illum 2
+
+newmtl led_azul
+Ka 0.1000 0.6400 0.8600
+Kd 0.1000 0.6400 0.8600
+Ks 0.055 0.055 0.055
+Ns 16
+d 1.0
+illum 2
+
+newmtl led_vermelho
+Ka 0.8700 0.1400 0.0900
+Kd 0.8700 0.1400 0.0900
+Ks 0.055 0.055 0.055
+Ns 16
+d 1.0
+illum 2
