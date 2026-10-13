@@ -7675,6 +7675,9 @@ PrefabInstance:
     m_AddedGameObjects:
     - targetCorrespondingSourceObject: {fileID: -8679921383154817045, guid: 23bb2c94643935046828c66024bb8069, type: 3}
       insertIndex: -1
+      addedObject: {fileID: 874040792}
+    - targetCorrespondingSourceObject: {fileID: -8679921383154817045, guid: 23bb2c94643935046828c66024bb8069, type: 3}
+      insertIndex: -1
       addedObject: {fileID: 168627590}
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 23bb2c94643935046828c66024bb8069, type: 3}
@@ -15374,7 +15377,7 @@ MonoBehaviour:
   preco: 24
   idObjetivo: bebidas
   textoObjetivo: Comprar 3 sucos
-  ordem: 0
+  ordem: 2
   pergunta: "Um suco custa R$ 8,00. Voc\xEA compra 3 sucos e paga com R$ 100,00. Quanto recebe de troco?"
   alternativas:
   - R$ 74,00
@@ -18763,7 +18766,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1189365959}
+  m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!65 &615216353
 BoxCollider:
@@ -19876,6 +19879,38 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2138773327}
     m_Modifications:
+    - target: {fileID: 3666470420520785052, guid: 86aa417cc067ade4197a784ad374900a, type: 3}
+      propertyPath: ordem
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 3666470420520785052, guid: 86aa417cc067ade4197a784ad374900a, type: 3}
+      propertyPath: pergunta
+      value: "Uma tapioca de coco custa R$ 3,00 e uma de queijo custa R$ 5,00. Voc\xEA compra as duas. Quanto vai pagar?"
+      objectReference: {fileID: 0}
+    - target: {fileID: 3666470420520785052, guid: 86aa417cc067ade4197a784ad374900a, type: 3}
+      propertyPath: textoObjetivo
+      value: Comprar 2 tapiocas
+      objectReference: {fileID: 0}
+    - target: {fileID: 3666470420520785052, guid: 86aa417cc067ade4197a784ad374900a, type: 3}
+      propertyPath: quantidadeItem
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3666470420520785052, guid: 86aa417cc067ade4197a784ad374900a, type: 3}
+      propertyPath: respostaCorreta
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3666470420520785052, guid: 86aa417cc067ade4197a784ad374900a, type: 3}
+      propertyPath: 'alternativas.Array.data[0]'
+      value: R$ 7,00
+      objectReference: {fileID: 0}
+    - target: {fileID: 3666470420520785052, guid: 86aa417cc067ade4197a784ad374900a, type: 3}
+      propertyPath: 'alternativas.Array.data[1]'
+      value: R$ 8,00
+      objectReference: {fileID: 0}
+    - target: {fileID: 3666470420520785052, guid: 86aa417cc067ade4197a784ad374900a, type: 3}
+      propertyPath: 'alternativas.Array.data[2]'
+      value: R$ 9,00
+      objectReference: {fileID: 0}
     - target: {fileID: 4235210295446830853, guid: 86aa417cc067ade4197a784ad374900a, type: 3}
       propertyPath: m_Name
       value: Barraca_Tapioca (1)
@@ -23979,6 +24014,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: -8679921383154817045, guid: 23bb2c94643935046828c66024bb8069, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1516122941}
+    - targetCorrespondingSourceObject: {fileID: -8679921383154817045, guid: 23bb2c94643935046828c66024bb8069, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 953338471}
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 23bb2c94643935046828c66024bb8069, type: 3}
 --- !u!4 &751904858 stripped
@@ -25066,88 +25104,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: f1bec49e3bbae5a4199373e754d1387c, type: 3}
   m_PrefabInstance: {fileID: 822940197}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &824722935
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 824722936}
-  - component: {fileID: 824722938}
-  - component: {fileID: 824722937}
-  m_Layer: 0
-  m_Name: AreaInteracao (4)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
-  m_IsActive: 1
---- !u!4 &824722936
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 824722935}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: 1, z: -0, w: -0.00007095932}
-  m_LocalPosition: {x: 0.25993, y: 0, z: 1.55}
-  m_LocalScale: {x: 0.9880489, y: 1, z: 0.7962962}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 2093787150}
-  m_LocalEulerAnglesHint: {x: 0, y: 180.008, z: 0}
---- !u!114 &824722937
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 824722935}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1e29c4abfc80bfd4fb0db56fc868584f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::InteracaoBarraca
-  nomeBarraca: Barraca de Ima
-  mensagem: "Bem-vindo \xE0 barraca de im\xE3s! Leve uma lembran\xE7a de Macei\xF3 para a sua casa!"
-  nomeItem: Ima
-  quantidadeItem: 1
-  preco: 18
-  idObjetivo: Ima
-  textoObjetivo: "Comprar tr\xEAs im\xE3s"
-  ordem: 3
-  pergunta: "O im\xE3 custa 8 reais, mas tr\xEAs im\xE3s custam 20 reais. Qual \xE9 o valor do desconto? "
-  alternativas:
-  - R$ 4,00
-  - R$ 5,00
-  - R$ 3,00
-  - R$ 6,00
-  respostaCorreta: 0
-  curiosidade: 
---- !u!65 &824722938
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 824722935}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 1
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 4.492416, y: 2.700808, z: 4.0920506}
-  m_Center: {x: -0.000753975, y: 1.1495968, z: 0.25982106}
 --- !u!1001 &824935311
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -26813,6 +26769,88 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 871840832}
   m_Mesh: {fileID: -2432090755550338912, guid: 017237739cc14f548b8803048404a909, type: 3}
+--- !u!1 &874040791
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 874040792}
+  - component: {fileID: 874040794}
+  - component: {fileID: 874040793}
+  m_Layer: 0
+  m_Name: AreaInteracao (4)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 2147483647
+  m_IsActive: 1
+--- !u!4 &874040792
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 874040791}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 210627866}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &874040793
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 874040791}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e29c4abfc80bfd4fb0db56fc868584f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::InteracaoBarraca
+  nomeBarraca: Barraca de Bonecos
+  mensagem: "Bem-vindo! Aqui temos bonecos artesanais inspirados na cultura e nas tradi\xE7\xF5es de Alagoas."
+  nomeItem: "\xCDm\xE3"
+  quantidadeItem: 1
+  preco: 18
+  idObjetivo: ima
+  textoObjetivo: Comprar 1 Boneco
+  ordem: 6
+  pergunta: "Um boneco artesanal custa R$ 30,00, mas hoje tinha uma promo\xE7\xE3o e voc\xEA pagou apenas metade do valor. Quanto voc\xEA pagou? "
+  alternativas:
+  - R$ 5,00
+  - R$ 10,00
+  - R$ 15,00
+  - R$ 18,00
+  respostaCorreta: 2
+  curiosidade: "Essas pe\xE7as v\xEAm da Ilha do Ferro, uma comunidade \xE0s margens do Rio S\xE3o Francisco, em Alagoas. O lugar ficou conhecido pelo talento de seus artes\xE3os."
+--- !u!65 &874040794
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 874040791}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 4.492416, y: 2.700808, z: 4.0920506}
+  m_Center: {x: -0.000753975, y: 1.1495968, z: 0.25982106}
 --- !u!1001 &874658766
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -29776,6 +29814,88 @@ Transform:
   - {fileID: 1225709630}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &953338470
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 953338471}
+  - component: {fileID: 953338473}
+  - component: {fileID: 953338472}
+  m_Layer: 0
+  m_Name: AreaInteracao (4)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 2147483647
+  m_IsActive: 1
+--- !u!4 &953338471
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 953338470}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: 1, z: -0, w: -0}
+  m_LocalPosition: {x: -4.408413, y: 0, z: 15.100419}
+  m_LocalScale: {x: 1.16298, y: 1, z: 0.83333343}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 751904858}
+  m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
+--- !u!114 &953338472
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 953338470}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e29c4abfc80bfd4fb0db56fc868584f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::InteracaoBarraca
+  nomeBarraca: "Barraca de \xCDm\xE3"
+  mensagem: "Bem-vindo \xE0 barraca de im\xE3s! Leve uma lembran\xE7a de Macei\xF3 para a sua casa!"
+  nomeItem: "\xCDm\xE3"
+  quantidadeItem: 1
+  preco: 18
+  idObjetivo: ima
+  textoObjetivo: "Comprar tr\xEAs im\xE3s"
+  ordem: 3
+  pergunta: "O im\xE3 custa 8 reais, mas tr\xEAs im\xE3s custam 20 reais. Qual \xE9 o valor do desconto? "
+  alternativas:
+  - R$ 4,00
+  - R$ 5,00
+  - R$ 3,00
+  - R$ 6,00
+  respostaCorreta: 0
+  curiosidade: "Os \xEDm\xE3s s\xE3o miniaturas aut\xEAnticas das maiores express\xF5es art\xEDsticas e tradi\xE7\xF5es do estado."
+--- !u!65 &953338473
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 953338470}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 4.492416, y: 2.700808, z: 4.0920506}
+  m_Center: {x: -0.000753975, y: 1.1495968, z: 0.25982106}
 --- !u!1001 &954159188
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -37696,334 +37816,334 @@ PrefabInstance:
       addedObject: {fileID: 24859269}
     - targetCorrespondingSourceObject: {fileID: -8679921383154817045, guid: 07b62245737e4f54cad282ddc603f13e, type: 3}
       insertIndex: 11
-      addedObject: {fileID: 1606529882}
-    - targetCorrespondingSourceObject: {fileID: -8679921383154817045, guid: 07b62245737e4f54cad282ddc603f13e, type: 3}
-      insertIndex: 12
       addedObject: {fileID: 1839143195}
     - targetCorrespondingSourceObject: {fileID: -8679921383154817045, guid: 07b62245737e4f54cad282ddc603f13e, type: 3}
-      insertIndex: 13
+      insertIndex: 12
       addedObject: {fileID: 2090699036}
     - targetCorrespondingSourceObject: {fileID: -8679921383154817045, guid: 07b62245737e4f54cad282ddc603f13e, type: 3}
-      insertIndex: 14
+      insertIndex: 13
       addedObject: {fileID: 495783859}
     - targetCorrespondingSourceObject: {fileID: -8679921383154817045, guid: 07b62245737e4f54cad282ddc603f13e, type: 3}
-      insertIndex: 15
+      insertIndex: 14
       addedObject: {fileID: 1829037239}
     - targetCorrespondingSourceObject: {fileID: -8679921383154817045, guid: 07b62245737e4f54cad282ddc603f13e, type: 3}
+      insertIndex: 15
+      addedObject: {fileID: 1606529882}
+    - targetCorrespondingSourceObject: {fileID: -8679921383154817045, guid: 07b62245737e4f54cad282ddc603f13e, type: 3}
       insertIndex: 16
-      addedObject: {fileID: 1000445834}
-    - targetCorrespondingSourceObject: {fileID: -8679921383154817045, guid: 07b62245737e4f54cad282ddc603f13e, type: 3}
-      insertIndex: 17
-      addedObject: {fileID: 973554024}
-    - targetCorrespondingSourceObject: {fileID: -8679921383154817045, guid: 07b62245737e4f54cad282ddc603f13e, type: 3}
-      insertIndex: 18
       addedObject: {fileID: 1781736838}
     - targetCorrespondingSourceObject: {fileID: -8679921383154817045, guid: 07b62245737e4f54cad282ddc603f13e, type: 3}
-      insertIndex: 19
+      insertIndex: 17
       addedObject: {fileID: 564034962}
     - targetCorrespondingSourceObject: {fileID: -8679921383154817045, guid: 07b62245737e4f54cad282ddc603f13e, type: 3}
-      insertIndex: 20
+      insertIndex: 18
       addedObject: {fileID: 1202057760}
     - targetCorrespondingSourceObject: {fileID: -8679921383154817045, guid: 07b62245737e4f54cad282ddc603f13e, type: 3}
-      insertIndex: 21
+      insertIndex: 19
       addedObject: {fileID: 1062006458}
     - targetCorrespondingSourceObject: {fileID: -8679921383154817045, guid: 07b62245737e4f54cad282ddc603f13e, type: 3}
-      insertIndex: 22
+      insertIndex: 20
       addedObject: {fileID: 1891060148}
     - targetCorrespondingSourceObject: {fileID: -8679921383154817045, guid: 07b62245737e4f54cad282ddc603f13e, type: 3}
-      insertIndex: 23
+      insertIndex: 21
       addedObject: {fileID: 577624710}
     - targetCorrespondingSourceObject: {fileID: -8679921383154817045, guid: 07b62245737e4f54cad282ddc603f13e, type: 3}
-      insertIndex: 24
+      insertIndex: 22
       addedObject: {fileID: 1952135055}
     - targetCorrespondingSourceObject: {fileID: -8679921383154817045, guid: 07b62245737e4f54cad282ddc603f13e, type: 3}
-      insertIndex: 25
+      insertIndex: 23
       addedObject: {fileID: 815806432}
     - targetCorrespondingSourceObject: {fileID: -8679921383154817045, guid: 07b62245737e4f54cad282ddc603f13e, type: 3}
-      insertIndex: 26
+      insertIndex: 24
       addedObject: {fileID: 1092379149}
     - targetCorrespondingSourceObject: {fileID: -8679921383154817045, guid: 07b62245737e4f54cad282ddc603f13e, type: 3}
-      insertIndex: 27
+      insertIndex: 25
       addedObject: {fileID: 2074764710}
     - targetCorrespondingSourceObject: {fileID: -8679921383154817045, guid: 07b62245737e4f54cad282ddc603f13e, type: 3}
-      insertIndex: 28
+      insertIndex: 26
       addedObject: {fileID: 1167215868}
     - targetCorrespondingSourceObject: {fileID: -8679921383154817045, guid: 07b62245737e4f54cad282ddc603f13e, type: 3}
-      insertIndex: 29
+      insertIndex: 27
       addedObject: {fileID: 982251403}
     - targetCorrespondingSourceObject: {fileID: -8679921383154817045, guid: 07b62245737e4f54cad282ddc603f13e, type: 3}
-      insertIndex: 30
+      insertIndex: 28
       addedObject: {fileID: 1776454909}
     - targetCorrespondingSourceObject: {fileID: -8679921383154817045, guid: 07b62245737e4f54cad282ddc603f13e, type: 3}
-      insertIndex: 31
+      insertIndex: 29
       addedObject: {fileID: 2079995485}
     - targetCorrespondingSourceObject: {fileID: -8679921383154817045, guid: 07b62245737e4f54cad282ddc603f13e, type: 3}
-      insertIndex: 32
+      insertIndex: 30
       addedObject: {fileID: 1470910984}
     - targetCorrespondingSourceObject: {fileID: -8679921383154817045, guid: 07b62245737e4f54cad282ddc603f13e, type: 3}
-      insertIndex: 33
+      insertIndex: 31
       addedObject: {fileID: 1179397300}
     - targetCorrespondingSourceObject: {fileID: -8679921383154817045, guid: 07b62245737e4f54cad282ddc603f13e, type: 3}
-      insertIndex: 34
+      insertIndex: 32
       addedObject: {fileID: 1296234017}
     - targetCorrespondingSourceObject: {fileID: -8679921383154817045, guid: 07b62245737e4f54cad282ddc603f13e, type: 3}
-      insertIndex: 35
+      insertIndex: 33
       addedObject: {fileID: 1943569796}
     - targetCorrespondingSourceObject: {fileID: -8679921383154817045, guid: 07b62245737e4f54cad282ddc603f13e, type: 3}
-      insertIndex: 36
+      insertIndex: 34
       addedObject: {fileID: 1402934894}
     - targetCorrespondingSourceObject: {fileID: -8679921383154817045, guid: 07b62245737e4f54cad282ddc603f13e, type: 3}
-      insertIndex: 37
+      insertIndex: 35
       addedObject: {fileID: 547765896}
     - targetCorrespondingSourceObject: {fileID: -8679921383154817045, guid: 07b62245737e4f54cad282ddc603f13e, type: 3}
-      insertIndex: 38
+      insertIndex: 36
       addedObject: {fileID: 1070719589}
     - targetCorrespondingSourceObject: {fileID: -8679921383154817045, guid: 07b62245737e4f54cad282ddc603f13e, type: 3}
-      insertIndex: 39
+      insertIndex: 37
       addedObject: {fileID: 1933886123}
     - targetCorrespondingSourceObject: {fileID: -8679921383154817045, guid: 07b62245737e4f54cad282ddc603f13e, type: 3}
-      insertIndex: 40
-      addedObject: {fileID: 517698140}
+      insertIndex: 38
+      addedObject: {fileID: 1000445834}
     - targetCorrespondingSourceObject: {fileID: -8679921383154817045, guid: 07b62245737e4f54cad282ddc603f13e, type: 3}
-      insertIndex: 41
-      addedObject: {fileID: 484188991}
-    - targetCorrespondingSourceObject: {fileID: -8679921383154817045, guid: 07b62245737e4f54cad282ddc603f13e, type: 3}
-      insertIndex: 42
+      insertIndex: 39
       addedObject: {fileID: 1954201774}
     - targetCorrespondingSourceObject: {fileID: -8679921383154817045, guid: 07b62245737e4f54cad282ddc603f13e, type: 3}
-      insertIndex: 43
+      insertIndex: 40
       addedObject: {fileID: 1223115981}
     - targetCorrespondingSourceObject: {fileID: -8679921383154817045, guid: 07b62245737e4f54cad282ddc603f13e, type: 3}
-      insertIndex: 44
+      insertIndex: 41
       addedObject: {fileID: 1240324553}
     - targetCorrespondingSourceObject: {fileID: -8679921383154817045, guid: 07b62245737e4f54cad282ddc603f13e, type: 3}
-      insertIndex: 45
+      insertIndex: 42
       addedObject: {fileID: 1350489145}
     - targetCorrespondingSourceObject: {fileID: -8679921383154817045, guid: 07b62245737e4f54cad282ddc603f13e, type: 3}
-      insertIndex: 46
+      insertIndex: 43
       addedObject: {fileID: 1590216860}
     - targetCorrespondingSourceObject: {fileID: -8679921383154817045, guid: 07b62245737e4f54cad282ddc603f13e, type: 3}
-      insertIndex: 47
+      insertIndex: 44
       addedObject: {fileID: 1566791564}
     - targetCorrespondingSourceObject: {fileID: -8679921383154817045, guid: 07b62245737e4f54cad282ddc603f13e, type: 3}
-      insertIndex: 48
+      insertIndex: 45
       addedObject: {fileID: 223524688}
     - targetCorrespondingSourceObject: {fileID: -8679921383154817045, guid: 07b62245737e4f54cad282ddc603f13e, type: 3}
-      insertIndex: 49
+      insertIndex: 46
       addedObject: {fileID: 337815116}
     - targetCorrespondingSourceObject: {fileID: -8679921383154817045, guid: 07b62245737e4f54cad282ddc603f13e, type: 3}
-      insertIndex: 50
+      insertIndex: 47
       addedObject: {fileID: 584740017}
     - targetCorrespondingSourceObject: {fileID: -8679921383154817045, guid: 07b62245737e4f54cad282ddc603f13e, type: 3}
-      insertIndex: 51
+      insertIndex: 48
       addedObject: {fileID: 213145951}
     - targetCorrespondingSourceObject: {fileID: -8679921383154817045, guid: 07b62245737e4f54cad282ddc603f13e, type: 3}
-      insertIndex: 52
+      insertIndex: 49
       addedObject: {fileID: 966941165}
     - targetCorrespondingSourceObject: {fileID: -8679921383154817045, guid: 07b62245737e4f54cad282ddc603f13e, type: 3}
-      insertIndex: 53
+      insertIndex: 50
       addedObject: {fileID: 1155735669}
     - targetCorrespondingSourceObject: {fileID: -8679921383154817045, guid: 07b62245737e4f54cad282ddc603f13e, type: 3}
-      insertIndex: 54
+      insertIndex: 51
       addedObject: {fileID: 719605971}
     - targetCorrespondingSourceObject: {fileID: -8679921383154817045, guid: 07b62245737e4f54cad282ddc603f13e, type: 3}
-      insertIndex: 55
+      insertIndex: 52
       addedObject: {fileID: 162798926}
     - targetCorrespondingSourceObject: {fileID: -8679921383154817045, guid: 07b62245737e4f54cad282ddc603f13e, type: 3}
-      insertIndex: 56
+      insertIndex: 53
       addedObject: {fileID: 1478155087}
     - targetCorrespondingSourceObject: {fileID: -8679921383154817045, guid: 07b62245737e4f54cad282ddc603f13e, type: 3}
-      insertIndex: 57
+      insertIndex: 54
       addedObject: {fileID: 1724127431}
     - targetCorrespondingSourceObject: {fileID: -8679921383154817045, guid: 07b62245737e4f54cad282ddc603f13e, type: 3}
-      insertIndex: 58
+      insertIndex: 55
       addedObject: {fileID: 1353920211}
     - targetCorrespondingSourceObject: {fileID: -8679921383154817045, guid: 07b62245737e4f54cad282ddc603f13e, type: 3}
-      insertIndex: 59
+      insertIndex: 56
       addedObject: {fileID: 521716766}
     - targetCorrespondingSourceObject: {fileID: -8679921383154817045, guid: 07b62245737e4f54cad282ddc603f13e, type: 3}
-      insertIndex: 60
+      insertIndex: 57
       addedObject: {fileID: 1912849589}
     - targetCorrespondingSourceObject: {fileID: -8679921383154817045, guid: 07b62245737e4f54cad282ddc603f13e, type: 3}
-      insertIndex: 61
+      insertIndex: 58
       addedObject: {fileID: 1845887132}
     - targetCorrespondingSourceObject: {fileID: -8679921383154817045, guid: 07b62245737e4f54cad282ddc603f13e, type: 3}
-      insertIndex: 62
-      addedObject: {fileID: 1322384420}
+      insertIndex: 59
+      addedObject: {fileID: 973554024}
     - targetCorrespondingSourceObject: {fileID: -8679921383154817045, guid: 07b62245737e4f54cad282ddc603f13e, type: 3}
-      insertIndex: 64
+      insertIndex: 60
+      addedObject: {fileID: 517698140}
+    - targetCorrespondingSourceObject: {fileID: -8679921383154817045, guid: 07b62245737e4f54cad282ddc603f13e, type: 3}
+      insertIndex: 61
       addedObject: {fileID: 1873385595}
     - targetCorrespondingSourceObject: {fileID: -8679921383154817045, guid: 07b62245737e4f54cad282ddc603f13e, type: 3}
-      insertIndex: 65
+      insertIndex: 62
       addedObject: {fileID: 194742369}
     - targetCorrespondingSourceObject: {fileID: -8679921383154817045, guid: 07b62245737e4f54cad282ddc603f13e, type: 3}
-      insertIndex: 66
-      addedObject: {fileID: 509385075}
+      insertIndex: 63
+      addedObject: {fileID: 484188991}
     - targetCorrespondingSourceObject: {fileID: -8679921383154817045, guid: 07b62245737e4f54cad282ddc603f13e, type: 3}
-      insertIndex: 67
-      addedObject: {fileID: 137291690}
-    - targetCorrespondingSourceObject: {fileID: -8679921383154817045, guid: 07b62245737e4f54cad282ddc603f13e, type: 3}
-      insertIndex: 68
-      addedObject: {fileID: 434488590}
-    - targetCorrespondingSourceObject: {fileID: -8679921383154817045, guid: 07b62245737e4f54cad282ddc603f13e, type: 3}
-      insertIndex: 69
+      insertIndex: 65
       addedObject: {fileID: 264356949}
     - targetCorrespondingSourceObject: {fileID: -8679921383154817045, guid: 07b62245737e4f54cad282ddc603f13e, type: 3}
-      insertIndex: 70
+      insertIndex: 66
       addedObject: {fileID: 1841087647}
     - targetCorrespondingSourceObject: {fileID: -8679921383154817045, guid: 07b62245737e4f54cad282ddc603f13e, type: 3}
-      insertIndex: 71
-      addedObject: {fileID: 2002053532}
+      insertIndex: 68
+      addedObject: {fileID: 509385075}
     - targetCorrespondingSourceObject: {fileID: -8679921383154817045, guid: 07b62245737e4f54cad282ddc603f13e, type: 3}
-      insertIndex: 73
+      insertIndex: 69
       addedObject: {fileID: 74151010}
     - targetCorrespondingSourceObject: {fileID: -8679921383154817045, guid: 07b62245737e4f54cad282ddc603f13e, type: 3}
-      insertIndex: 74
+      insertIndex: 70
       addedObject: {fileID: 980855653}
     - targetCorrespondingSourceObject: {fileID: -8679921383154817045, guid: 07b62245737e4f54cad282ddc603f13e, type: 3}
-      insertIndex: 75
+      insertIndex: 71
       addedObject: {fileID: 660919515}
     - targetCorrespondingSourceObject: {fileID: -8679921383154817045, guid: 07b62245737e4f54cad282ddc603f13e, type: 3}
-      insertIndex: 76
-      addedObject: {fileID: 1599574710}
+      insertIndex: 72
+      addedObject: {fileID: 137291690}
     - targetCorrespondingSourceObject: {fileID: -8679921383154817045, guid: 07b62245737e4f54cad282ddc603f13e, type: 3}
-      insertIndex: 77
-      addedObject: {fileID: 131916031}
+      insertIndex: 73
+      addedObject: {fileID: 434488590}
     - targetCorrespondingSourceObject: {fileID: -8679921383154817045, guid: 07b62245737e4f54cad282ddc603f13e, type: 3}
-      insertIndex: 78
+      insertIndex: 74
       addedObject: {fileID: 957826296}
     - targetCorrespondingSourceObject: {fileID: -8679921383154817045, guid: 07b62245737e4f54cad282ddc603f13e, type: 3}
-      insertIndex: 79
-      addedObject: {fileID: 2082997650}
-    - targetCorrespondingSourceObject: {fileID: -8679921383154817045, guid: 07b62245737e4f54cad282ddc603f13e, type: 3}
-      insertIndex: 81
+      insertIndex: 77
       addedObject: {fileID: 652901569}
     - targetCorrespondingSourceObject: {fileID: -8679921383154817045, guid: 07b62245737e4f54cad282ddc603f13e, type: 3}
-      insertIndex: 82
+      insertIndex: 78
       addedObject: {fileID: 1661057346}
     - targetCorrespondingSourceObject: {fileID: -8679921383154817045, guid: 07b62245737e4f54cad282ddc603f13e, type: 3}
-      insertIndex: 83
+      insertIndex: 79
       addedObject: {fileID: 1150888641}
     - targetCorrespondingSourceObject: {fileID: -8679921383154817045, guid: 07b62245737e4f54cad282ddc603f13e, type: 3}
-      insertIndex: 84
-      addedObject: {fileID: 736078718}
+      insertIndex: 80
+      addedObject: {fileID: 1599574710}
     - targetCorrespondingSourceObject: {fileID: -8679921383154817045, guid: 07b62245737e4f54cad282ddc603f13e, type: 3}
-      insertIndex: 85
-      addedObject: {fileID: 1201214960}
+      insertIndex: 81
+      addedObject: {fileID: 131916031}
     - targetCorrespondingSourceObject: {fileID: -8679921383154817045, guid: 07b62245737e4f54cad282ddc603f13e, type: 3}
-      insertIndex: 86
+      insertIndex: 82
       addedObject: {fileID: 938043356}
     - targetCorrespondingSourceObject: {fileID: -8679921383154817045, guid: 07b62245737e4f54cad282ddc603f13e, type: 3}
-      insertIndex: 87
+      insertIndex: 83
       addedObject: {fileID: 1587492387}
     - targetCorrespondingSourceObject: {fileID: -8679921383154817045, guid: 07b62245737e4f54cad282ddc603f13e, type: 3}
-      insertIndex: 88
+      insertIndex: 84
       addedObject: {fileID: 1513917205}
     - targetCorrespondingSourceObject: {fileID: -8679921383154817045, guid: 07b62245737e4f54cad282ddc603f13e, type: 3}
-      insertIndex: 89
+      insertIndex: 85
       addedObject: {fileID: 632282687}
     - targetCorrespondingSourceObject: {fileID: -8679921383154817045, guid: 07b62245737e4f54cad282ddc603f13e, type: 3}
-      insertIndex: 90
+      insertIndex: 86
       addedObject: {fileID: 249917232}
     - targetCorrespondingSourceObject: {fileID: -8679921383154817045, guid: 07b62245737e4f54cad282ddc603f13e, type: 3}
-      insertIndex: 91
+      insertIndex: 87
       addedObject: {fileID: 531559791}
     - targetCorrespondingSourceObject: {fileID: -8679921383154817045, guid: 07b62245737e4f54cad282ddc603f13e, type: 3}
-      insertIndex: 92
+      insertIndex: 88
       addedObject: {fileID: 1285300608}
     - targetCorrespondingSourceObject: {fileID: -8679921383154817045, guid: 07b62245737e4f54cad282ddc603f13e, type: 3}
-      insertIndex: 93
+      insertIndex: 89
       addedObject: {fileID: 1269348429}
     - targetCorrespondingSourceObject: {fileID: -8679921383154817045, guid: 07b62245737e4f54cad282ddc603f13e, type: 3}
-      insertIndex: 94
+      insertIndex: 90
       addedObject: {fileID: 1160547707}
     - targetCorrespondingSourceObject: {fileID: -8679921383154817045, guid: 07b62245737e4f54cad282ddc603f13e, type: 3}
-      insertIndex: 95
+      insertIndex: 91
       addedObject: {fileID: 586918449}
     - targetCorrespondingSourceObject: {fileID: -8679921383154817045, guid: 07b62245737e4f54cad282ddc603f13e, type: 3}
-      insertIndex: 96
+      insertIndex: 92
       addedObject: {fileID: 1061554436}
     - targetCorrespondingSourceObject: {fileID: -8679921383154817045, guid: 07b62245737e4f54cad282ddc603f13e, type: 3}
-      insertIndex: 97
+      insertIndex: 93
       addedObject: {fileID: 363900023}
     - targetCorrespondingSourceObject: {fileID: -8679921383154817045, guid: 07b62245737e4f54cad282ddc603f13e, type: 3}
-      insertIndex: 98
+      insertIndex: 94
       addedObject: {fileID: 1907621999}
     - targetCorrespondingSourceObject: {fileID: -8679921383154817045, guid: 07b62245737e4f54cad282ddc603f13e, type: 3}
-      insertIndex: 99
+      insertIndex: 95
       addedObject: {fileID: 631759288}
     - targetCorrespondingSourceObject: {fileID: -8679921383154817045, guid: 07b62245737e4f54cad282ddc603f13e, type: 3}
-      insertIndex: 100
+      insertIndex: 96
       addedObject: {fileID: 945628263}
     - targetCorrespondingSourceObject: {fileID: -8679921383154817045, guid: 07b62245737e4f54cad282ddc603f13e, type: 3}
-      insertIndex: 101
+      insertIndex: 97
       addedObject: {fileID: 1311367821}
     - targetCorrespondingSourceObject: {fileID: -8679921383154817045, guid: 07b62245737e4f54cad282ddc603f13e, type: 3}
-      insertIndex: 102
+      insertIndex: 98
       addedObject: {fileID: 510405834}
     - targetCorrespondingSourceObject: {fileID: -8679921383154817045, guid: 07b62245737e4f54cad282ddc603f13e, type: 3}
-      insertIndex: 103
+      insertIndex: 99
       addedObject: {fileID: 31194550}
     - targetCorrespondingSourceObject: {fileID: -8679921383154817045, guid: 07b62245737e4f54cad282ddc603f13e, type: 3}
-      insertIndex: 104
+      insertIndex: 100
       addedObject: {fileID: 317862909}
     - targetCorrespondingSourceObject: {fileID: -8679921383154817045, guid: 07b62245737e4f54cad282ddc603f13e, type: 3}
-      insertIndex: 105
+      insertIndex: 101
       addedObject: {fileID: 623489218}
     - targetCorrespondingSourceObject: {fileID: -8679921383154817045, guid: 07b62245737e4f54cad282ddc603f13e, type: 3}
-      insertIndex: 106
+      insertIndex: 102
       addedObject: {fileID: 1585756269}
     - targetCorrespondingSourceObject: {fileID: -8679921383154817045, guid: 07b62245737e4f54cad282ddc603f13e, type: 3}
-      insertIndex: 107
+      insertIndex: 103
       addedObject: {fileID: 746811933}
     - targetCorrespondingSourceObject: {fileID: -8679921383154817045, guid: 07b62245737e4f54cad282ddc603f13e, type: 3}
-      insertIndex: 108
+      insertIndex: 104
       addedObject: {fileID: 944481939}
     - targetCorrespondingSourceObject: {fileID: -8679921383154817045, guid: 07b62245737e4f54cad282ddc603f13e, type: 3}
-      insertIndex: 109
+      insertIndex: 105
       addedObject: {fileID: 1773130413}
     - targetCorrespondingSourceObject: {fileID: -8679921383154817045, guid: 07b62245737e4f54cad282ddc603f13e, type: 3}
-      insertIndex: 110
+      insertIndex: 106
       addedObject: {fileID: 1110364245}
     - targetCorrespondingSourceObject: {fileID: -8679921383154817045, guid: 07b62245737e4f54cad282ddc603f13e, type: 3}
-      insertIndex: 111
+      insertIndex: 107
       addedObject: {fileID: 257733938}
     - targetCorrespondingSourceObject: {fileID: -8679921383154817045, guid: 07b62245737e4f54cad282ddc603f13e, type: 3}
-      insertIndex: 112
+      insertIndex: 108
       addedObject: {fileID: 1124953926}
     - targetCorrespondingSourceObject: {fileID: -8679921383154817045, guid: 07b62245737e4f54cad282ddc603f13e, type: 3}
-      insertIndex: 113
+      insertIndex: 109
       addedObject: {fileID: 512476354}
     - targetCorrespondingSourceObject: {fileID: -8679921383154817045, guid: 07b62245737e4f54cad282ddc603f13e, type: 3}
-      insertIndex: 114
+      insertIndex: 110
       addedObject: {fileID: 609406436}
     - targetCorrespondingSourceObject: {fileID: -8679921383154817045, guid: 07b62245737e4f54cad282ddc603f13e, type: 3}
-      insertIndex: 115
+      insertIndex: 111
       addedObject: {fileID: 2067406759}
     - targetCorrespondingSourceObject: {fileID: -8679921383154817045, guid: 07b62245737e4f54cad282ddc603f13e, type: 3}
-      insertIndex: 116
+      insertIndex: 112
       addedObject: {fileID: 1791350355}
     - targetCorrespondingSourceObject: {fileID: -8679921383154817045, guid: 07b62245737e4f54cad282ddc603f13e, type: 3}
-      insertIndex: 117
+      insertIndex: 113
       addedObject: {fileID: 1512867394}
     - targetCorrespondingSourceObject: {fileID: -8679921383154817045, guid: 07b62245737e4f54cad282ddc603f13e, type: 3}
-      insertIndex: 118
+      insertIndex: 114
       addedObject: {fileID: 1818477187}
     - targetCorrespondingSourceObject: {fileID: -8679921383154817045, guid: 07b62245737e4f54cad282ddc603f13e, type: 3}
-      insertIndex: 119
+      insertIndex: 115
       addedObject: {fileID: 1280040599}
     - targetCorrespondingSourceObject: {fileID: -8679921383154817045, guid: 07b62245737e4f54cad282ddc603f13e, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 615216352}
+      insertIndex: 118
+      addedObject: {fileID: 736078718}
+    - targetCorrespondingSourceObject: {fileID: -8679921383154817045, guid: 07b62245737e4f54cad282ddc603f13e, type: 3}
+      insertIndex: 119
+      addedObject: {fileID: 1201214960}
     - targetCorrespondingSourceObject: {fileID: -8679921383154817045, guid: 07b62245737e4f54cad282ddc603f13e, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 555628781}
+      addedObject: {fileID: 1927155064}
+    - targetCorrespondingSourceObject: {fileID: -8679921383154817045, guid: 07b62245737e4f54cad282ddc603f13e, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1344447699}
     - targetCorrespondingSourceObject: {fileID: -8679921383154817045, guid: 07b62245737e4f54cad282ddc603f13e, type: 3}
       insertIndex: -1
       addedObject: {fileID: 76145365}
     - targetCorrespondingSourceObject: {fileID: -8679921383154817045, guid: 07b62245737e4f54cad282ddc603f13e, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 1344447699}
+      addedObject: {fileID: 1322384420}
+    - targetCorrespondingSourceObject: {fileID: -8679921383154817045, guid: 07b62245737e4f54cad282ddc603f13e, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2002053532}
+    - targetCorrespondingSourceObject: {fileID: -8679921383154817045, guid: 07b62245737e4f54cad282ddc603f13e, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 555628781}
+    - targetCorrespondingSourceObject: {fileID: -8679921383154817045, guid: 07b62245737e4f54cad282ddc603f13e, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2082997650}
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 07b62245737e4f54cad282ddc603f13e, type: 3}
 --- !u!4 &1189365959 stripped
@@ -41710,7 +41830,7 @@ MonoBehaviour:
   preco: 30
   idObjetivo: vestido
   textoObjetivo: Comprar um vestido
-  ordem: 1
+  ordem: 0
   pergunta: "O jarro custa 20 reais. Mas hoje est\xE1 com 10% de desconto. Quanto voc\xEA pagar\xE1 no jarro? "
   alternativas:
   - R$ 74,00
@@ -49298,12 +49418,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1e29c4abfc80bfd4fb0db56fc868584f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::InteracaoBarraca
-  nomeBarraca: Barraca de Ima
+  nomeBarraca: "Barraca de \xCDm\xE3"
   mensagem: "Bem-vindo \xE0 barraca de im\xE3s! Leve uma lembran\xE7a de Macei\xF3 para a sua casa!"
-  nomeItem: Ima
+  nomeItem: "\xCDm\xE3"
   quantidadeItem: 1
   preco: 18
-  idObjetivo: Ima
+  idObjetivo: ima
   textoObjetivo: "Comprar tr\xEAs im\xE3s"
   ordem: 3
   pergunta: "O im\xE3 custa 8 reais, mas tr\xEAs im\xE3s custam 20 reais. Qual \xE9 o valor do desconto? "
@@ -49313,7 +49433,7 @@ MonoBehaviour:
   - R$ 3,00
   - R$ 6,00
   respostaCorreta: 0
-  curiosidade: 
+  curiosidade: "Os \xEDm\xE3s s\xE3o miniaturas aut\xEAnticas das maiores express\xF5es art\xEDsticas e tradi\xE7\xF5es do estado."
 --- !u!65 &1595338017
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -57033,6 +57153,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: cc7999de9adb19844b51725d6af5c6f1, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.86
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: cc7999de9adb19844b51725d6af5c6f1, type: 3}
       propertyPath: m_LocalPosition.x
       value: 14.47
       objectReference: {fileID: 0}
@@ -57409,6 +57533,88 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 225aaca584cdda742ba722551482cbaa, type: 3}
+--- !u!1 &1927155063
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1927155064}
+  - component: {fileID: 1927155066}
+  - component: {fileID: 1927155065}
+  m_Layer: 0
+  m_Name: AreaInteracao (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1927155064
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1927155063}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1189365959}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1927155065
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1927155063}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e29c4abfc80bfd4fb0db56fc868584f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::InteracaoBarraca
+  nomeBarraca: Barraca de Mel
+  mensagem: "Ol\xE1! Aqui o mel \xE9 puro, direto do produtor. Resolva a conta e leve alguns potes!"
+  nomeItem: Pote de mel
+  quantidadeItem: 1
+  preco: 12
+  idObjetivo: mel
+  textoObjetivo: Comprar 1 pote de mel
+  ordem: 5
+  pergunta: "Voc\xEA quer comprar 1 pote de mel e entregou uma nota de R$ 20,00 para pagar. Quanto voc\xEA receber\xE1 de troco?"
+  alternativas:
+  - R$ 6,00
+  - R$ 9,00
+  - R$ 12,00
+  - R$ 14,00
+  respostaCorreta: 3
+  curiosidade: "A cria\xE7\xE3o de abelhas e a produ\xE7\xE3o de mel fazem parte das atividades tradicionais de muitas comunidades rurais de Alagoas."
+--- !u!65 &1927155066
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1927155063}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 3.4, y: 2, z: 1.2}
+  m_Center: {x: 0, y: 1, z: 1.45}
 --- !u!1 &1927986616
 GameObject:
   m_ObjectHideFlags: 0
@@ -62860,9 +63066,6 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: -8679921383154817045, guid: 2b9e73c410c9e494ba8a67f3b2d65150, type: 3}
       insertIndex: -1
       addedObject: {fileID: 867427469}
-    - targetCorrespondingSourceObject: {fileID: -8679921383154817045, guid: 2b9e73c410c9e494ba8a67f3b2d65150, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 824722936}
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2b9e73c410c9e494ba8a67f3b2d65150, type: 3}
 --- !u!4 &2093787150 stripped
@@ -64277,3 +64480,4 @@ SceneRoots:
   - {fileID: 1917836752}
   - {fileID: 5919368}
   - {fileID: 743330749}
+  - {fileID: 615216352}
