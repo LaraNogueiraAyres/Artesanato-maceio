@@ -139,6 +139,7 @@ public class FimDeJogo : MonoBehaviour
         painel.transform.SetAsLastSibling();   // por cima de tudo
         painel.SetActive(true);
         GameEstado.Pausado = true;
+        GameEstado.FimDeJogo = true;
         tempoAberto = 0f;
 
         if (pararMusicaEAmbiente) PararSons();
@@ -168,6 +169,8 @@ public class FimDeJogo : MonoBehaviour
                 if (i.quantidade > 0) sb.AppendLine("•  " + i.quantidade + "x " + i.nome);
             sb.AppendLine("<b><color=#C8553D>Saldo final:</color></b> " + InventarioJogador.Formatar(inv.dinheiro));
         }
+
+        if (ProgressoJogo.Instancia != null) sb.AppendLine(ProgressoJogo.Instancia.ResumoEstrelas());
 
         int t = Mathf.FloorToInt(tempoTotal);
         sb.AppendLine("<b><color=#C8553D>Tempo:</color></b> " + (t / 60).ToString("00") + ":" + (t % 60).ToString("00"));

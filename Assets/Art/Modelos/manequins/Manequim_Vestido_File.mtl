@@ -1,0 +1,33 @@
+# Materiais - manequim com vestido de file alagoano
+newmtl manequim_pele
+Ka 0.30 0.28 0.26
+Kd 0.90 0.86 0.80
+Ks 0.35 0.35 0.33
+Ns 60
+d 1.0
+illum 2
+
+newmtl manequim_base
+Ka 0.10 0.10 0.10
+Kd 0.28 0.28 0.30
+Ks 0.40 0.40 0.40
+Ns 80
+d 1.0
+illum 2
+
+newmtl vestido_file
+Ka 1 1 1
+Kd 1 1 1
+Ks 0.05 0.05 0.05
+Ns 10
+d 1.0
+illum 2
+map_Kd Manequim_Vestido_File_tecido.png
+
+newmtl alca_file
+Ka 0.30 0.15 0.02
+Kd 1.00 0.52 0.08
+Ks 0.10 0.10 0.10
+Ns 15
+d 1.0
+illum 2
