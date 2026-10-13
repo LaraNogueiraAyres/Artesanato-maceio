@@ -12,14 +12,20 @@ public class InteracaoBarraca : MonoBehaviour
     [TextArea]
     public string mensagem = "Bem-vindo à barraca de bebidas!";
 
+    [Header("Tipo")]
+    [Tooltip("Marcado = ponto cultural (ex.: monumento). Só mostra o texto da Curiosidade, sem pergunta nem compra. Desmarque 'Eh Missao'.")]
+    public bool somenteInformativo = false;
+    [Tooltip("Marcado = item da lista de missões. Desmarcado = item extra (gasta o dinheiro da lista).")]
+    public bool ehMissao = true;
+
     [Header("Produto / compra")]
     public string nomeItem = "Suco";
     public int quantidadeItem = 3;
     [Tooltip("Quanto sai do saldo quando o jogador acerta (em reais).")]
     public float preco = 24f;
 
-    [Header("Objetivo (aparece sozinho na lista da tela)")]
-    [Tooltip("Id único por barraca (ex.: bebidas, mel, filé...). Não repita em duas barracas.")]
+    [Header("Objetivo (aparece sozinho na lista da tela, só para missões)")]
+    [Tooltip("Id único por produto (ex.: bebidas, mel, barro). Barracas com o mesmo id contam como a mesma compra.")]
     public string idObjetivo = "bebidas";
     public string textoObjetivo = "Comprar 3 sucos";
     [Tooltip("Ordem na lista de objetivos (0 aparece primeiro).")]
