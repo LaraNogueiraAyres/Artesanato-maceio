@@ -38,6 +38,7 @@ public class InterfaceFeira : MonoBehaviour
         Time.timeScale = 1f;
         GameEstado.Pausado = false;
         GameEstado.DialogoAberto = false;
+        GameEstado.FimDeJogo = false;
     }
 
     void Start()
@@ -60,6 +61,8 @@ public class InterfaceFeira : MonoBehaviour
 
     void Update()
     {
+        if (GameEstado.FimDeJogo) return;
+        
         var k = Keyboard.current;
         if (k == null) return;
 
