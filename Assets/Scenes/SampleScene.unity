@@ -3539,6 +3539,54 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2138773327}
     m_Modifications:
+    - target: {fileID: 3666470420520785052, guid: 86aa417cc067ade4197a784ad374900a, type: 3}
+      propertyPath: ordem
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3666470420520785052, guid: 86aa417cc067ade4197a784ad374900a, type: 3}
+      propertyPath: preco
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3666470420520785052, guid: 86aa417cc067ade4197a784ad374900a, type: 3}
+      propertyPath: ehMissao
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3666470420520785052, guid: 86aa417cc067ade4197a784ad374900a, type: 3}
+      propertyPath: mensagem
+      value: "Ol\xE1! Aqui a tapioca \xE9 feita na hora, quentinha. Resolva a conta e leve a sua!"
+      objectReference: {fileID: 0}
+    - target: {fileID: 3666470420520785052, guid: 86aa417cc067ade4197a784ad374900a, type: 3}
+      propertyPath: pergunta
+      value: "Uma tapioca de coco custa R$ 3,00 e uma de queijo custa R$ 5,00. Voc\xEA compra as duas. Quanto vai pagar?"
+      objectReference: {fileID: 0}
+    - target: {fileID: 3666470420520785052, guid: 86aa417cc067ade4197a784ad374900a, type: 3}
+      propertyPath: curiosidade
+      value: "A tapioca \xE9 feita com a goma da mandioca, uma receita de origem ind\xEDgena. No Nordeste ela \xE9 comida de caf\xE9 da manh\xE3 e de lanche, recheada com coco ralado, queijo coalho ou carne de sol."
+      objectReference: {fileID: 0}
+    - target: {fileID: 3666470420520785052, guid: 86aa417cc067ade4197a784ad374900a, type: 3}
+      propertyPath: textoObjetivo
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 3666470420520785052, guid: 86aa417cc067ade4197a784ad374900a, type: 3}
+      propertyPath: quantidadeItem
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3666470420520785052, guid: 86aa417cc067ade4197a784ad374900a, type: 3}
+      propertyPath: respostaCorreta
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3666470420520785052, guid: 86aa417cc067ade4197a784ad374900a, type: 3}
+      propertyPath: 'alternativas.Array.data[0]'
+      value: R$ 8,00
+      objectReference: {fileID: 0}
+    - target: {fileID: 3666470420520785052, guid: 86aa417cc067ade4197a784ad374900a, type: 3}
+      propertyPath: 'alternativas.Array.data[1]'
+      value: R$ 7,00
+      objectReference: {fileID: 0}
+    - target: {fileID: 3666470420520785052, guid: 86aa417cc067ade4197a784ad374900a, type: 3}
+      propertyPath: 'alternativas.Array.data[2]'
+      value: R$ 9,00
+      objectReference: {fileID: 0}
     - target: {fileID: 4235210295446830853, guid: 86aa417cc067ade4197a784ad374900a, type: 3}
       propertyPath: m_Name
       value: Barraca_Tapioca
@@ -18413,6 +18461,90 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 225aaca584cdda742ba722551482cbaa, type: 3}
+--- !u!1 &598950610
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 598950611}
+  - component: {fileID: 598950613}
+  - component: {fileID: 598950612}
+  m_Layer: 0
+  m_Name: AreaInteracao (5)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 2147483647
+  m_IsActive: 1
+--- !u!4 &598950611
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 598950610}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 751904858}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &598950612
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 598950610}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e29c4abfc80bfd4fb0db56fc868584f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::InteracaoBarraca
+  nomeBarraca: Barraca de Bonecos
+  mensagem: "Seja bem-vindo \xE0 banca dos bonecos da Ilha do Ferro! Cada pe\xE7a \xE9 esculpida \xE0 m\xE3o. Vamos \xE0 conta?"
+  somenteInformativo: 0
+  ehMissao: 1
+  nomeItem: Boneco da Ilha do Ferro
+  quantidadeItem: 1
+  preco: 8
+  idObjetivo: bonecos
+  textoObjetivo: Comprar 1 boneco da Ilha do Ferro
+  ordem: 4
+  pergunta: "O artes\xE3o cobra R$ 1,00 por cm\xB2 da base de madeira do boneco. A base \xE9 um ret\xE2ngulo de 4 cm por 2 cm. Quanto voc\xEA paga?"
+  alternativas:
+  - R$ 6,00
+  - R$ 12,00
+  - R$ 16,00
+  - R$ 8,00
+  respostaCorreta: 3
+  curiosidade: "Essas pe\xE7as v\xEAm da Ilha do Ferro, uma comunidade \xE0s margens do Rio S\xE3o Francisco, em Alagoas. O lugar ficou conhecido pelo talento de seus artes\xE3os."
+--- !u!65 &598950613
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 598950610}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 4.492416, y: 2.700808, z: 4.0920506}
+  m_Center: {x: -0.000753975, y: 1.1495968, z: 0.25982106}
 --- !u!1 &604319541
 GameObject:
   m_ObjectHideFlags: 0
@@ -18505,6 +18637,90 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 604319541}
   m_Mesh: {fileID: 4881580902812956167, guid: f47c95f90bc14e649961798aff58879b, type: 3}
+--- !u!1 &605302766
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 605302767}
+  - component: {fileID: 605302769}
+  - component: {fileID: 605302768}
+  m_Layer: 0
+  m_Name: AreaInteracao (4)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 2147483647
+  m_IsActive: 1
+--- !u!4 &605302767
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 605302766}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2093787150}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &605302768
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 605302766}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e29c4abfc80bfd4fb0db56fc868584f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::InteracaoBarraca
+  nomeBarraca: "Barraca de \xCDm\xE3"
+  mensagem: "Bem-vindo \xE0 barraca de im\xE3s! Leve uma lembran\xE7a de Macei\xF3 para a sua casa!"
+  somenteInformativo: 0
+  ehMissao: 0
+  nomeItem: "\xCDm\xE3"
+  quantidadeItem: 1
+  preco: 8
+  idObjetivo: ima
+  textoObjetivo: 
+  ordem: 0
+  pergunta: "Um \xEDm\xE3 custa R$ 10,00 e est\xE1 com 20% de desconto. Quanto voc\xEA paga?"
+  alternativas:
+  - R$ 2,00
+  - R$ 8,00
+  - R$ 9,00
+  - R$ 12,00
+  respostaCorreta: 1
+  curiosidade: "Os \xEDm\xE3s de Alagoas costumam mostrar cart\xF5es-postais como as praias de Macei\xF3 e as piscinas naturais da Paju\xE7ara."
+--- !u!65 &605302769
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 605302766}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 4.492416, y: 2.700808, z: 4.0920506}
+  m_Center: {x: -0.000753975, y: 1.1495968, z: 0.25982106}
 --- !u!1001 &606446960
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -20050,15 +20266,31 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 3666470420520785052, guid: 86aa417cc067ade4197a784ad374900a, type: 3}
       propertyPath: ordem
-      value: 4
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3666470420520785052, guid: 86aa417cc067ade4197a784ad374900a, type: 3}
+      propertyPath: preco
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3666470420520785052, guid: 86aa417cc067ade4197a784ad374900a, type: 3}
+      propertyPath: ehMissao
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3666470420520785052, guid: 86aa417cc067ade4197a784ad374900a, type: 3}
+      propertyPath: mensagem
+      value: "Ol\xE1! Aqui a tapioca \xE9 feita na hora, quentinha. Resolva a conta e leve a sua!"
       objectReference: {fileID: 0}
     - target: {fileID: 3666470420520785052, guid: 86aa417cc067ade4197a784ad374900a, type: 3}
       propertyPath: pergunta
       value: "Uma tapioca de coco custa R$ 3,00 e uma de queijo custa R$ 5,00. Voc\xEA compra as duas. Quanto vai pagar?"
       objectReference: {fileID: 0}
     - target: {fileID: 3666470420520785052, guid: 86aa417cc067ade4197a784ad374900a, type: 3}
+      propertyPath: curiosidade
+      value: "A tapioca \xE9 feita com a goma da mandioca, uma receita de origem ind\xEDgena. No Nordeste ela \xE9 comida de caf\xE9 da manh\xE3 e de lanche, recheada com coco ralado, queijo coalho ou carne de sol."
+      objectReference: {fileID: 0}
+    - target: {fileID: 3666470420520785052, guid: 86aa417cc067ade4197a784ad374900a, type: 3}
       propertyPath: textoObjetivo
-      value: Comprar 2 tapiocas
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 3666470420520785052, guid: 86aa417cc067ade4197a784ad374900a, type: 3}
       propertyPath: quantidadeItem
@@ -20066,15 +20298,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3666470420520785052, guid: 86aa417cc067ade4197a784ad374900a, type: 3}
       propertyPath: respostaCorreta
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3666470420520785052, guid: 86aa417cc067ade4197a784ad374900a, type: 3}
       propertyPath: 'alternativas.Array.data[0]'
-      value: R$ 7,00
+      value: R$ 8,00
       objectReference: {fileID: 0}
     - target: {fileID: 3666470420520785052, guid: 86aa417cc067ade4197a784ad374900a, type: 3}
       propertyPath: 'alternativas.Array.data[1]'
-      value: R$ 8,00
+      value: R$ 7,00
       objectReference: {fileID: 0}
     - target: {fileID: 3666470420520785052, guid: 86aa417cc067ade4197a784ad374900a, type: 3}
       propertyPath: 'alternativas.Array.data[2]'
@@ -22208,59 +22440,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 017237739cc14f548b8803048404a909, type: 3}
   m_PrefabInstance: {fileID: 701898988}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &704999268
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 704999269}
-  - component: {fileID: 704999270}
-  m_Layer: 0
-  m_Name: box_collider
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &704999269
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 704999268}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1748851677}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!65 &704999270
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 704999268}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 4.585825, y: 3.341545, z: 3.6317735}
-  m_Center: {x: -0.0022853855, y: 1.6412308, z: -0.032702744}
 --- !u!1 &705998793
 GameObject:
   m_ObjectHideFlags: 0
@@ -24315,10 +24494,10 @@ PrefabInstance:
     m_AddedGameObjects:
     - targetCorrespondingSourceObject: {fileID: -8679921383154817045, guid: 23bb2c94643935046828c66024bb8069, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 1516122941}
+      addedObject: {fileID: 598950611}
     - targetCorrespondingSourceObject: {fileID: -8679921383154817045, guid: 23bb2c94643935046828c66024bb8069, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 953338471}
+      addedObject: {fileID: 1516122941}
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 23bb2c94643935046828c66024bb8069, type: 3}
 --- !u!4 &751904858 stripped
@@ -24446,6 +24625,11 @@ SphereCollider:
   serializedVersion: 3
   m_Radius: 4.799858
   m_Center: {x: 0, y: 2, z: 0}
+--- !u!4 &761890240 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: cc7999de9adb19844b51725d6af5c6f1, type: 3}
+  m_PrefabInstance: {fileID: 1919534203}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &770667280
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -27277,22 +27461,22 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::InteracaoBarraca
   nomeBarraca: Barraca de Bonecos
-  mensagem: "Bem-vindo! Aqui temos bonecos artesanais inspirados na cultura e nas tradi\xE7\xF5es de Alagoas."
+  mensagem: "Seja bem-vindo \xE0 banca dos bonecos da Ilha do Ferro! Cada pe\xE7a \xE9 esculpida \xE0 m\xE3o. Vamos \xE0 conta?"
   somenteInformativo: 0
   ehMissao: 1
-  nomeItem: "\xCDm\xE3"
+  nomeItem: Boneco da Ilha do Ferro
   quantidadeItem: 1
-  preco: 18
-  idObjetivo: ima
-  textoObjetivo: Comprar 1 Boneco
-  ordem: 6
-  pergunta: "Um boneco artesanal custa R$ 30,00, mas hoje tinha uma promo\xE7\xE3o e voc\xEA pagou apenas metade do valor. Quanto voc\xEA pagou? "
+  preco: 8
+  idObjetivo: bonecos
+  textoObjetivo: Comprar 1 boneco da Ilha do Ferro
+  ordem: 4
+  pergunta: "O artes\xE3o cobra R$ 1,00 por cm\xB2 da base de madeira do boneco. A base \xE9 um ret\xE2ngulo de 4 cm por 2 cm. Quanto voc\xEA paga?"
   alternativas:
-  - R$ 5,00
-  - R$ 10,00
-  - R$ 15,00
-  - R$ 18,00
-  respostaCorreta: 2
+  - R$ 6,00
+  - R$ 12,00
+  - R$ 16,00
+  - R$ 8,00
+  respostaCorreta: 3
   curiosidade: "Essas pe\xE7as v\xEAm da Ilha do Ferro, uma comunidade \xE0s margens do Rio S\xE3o Francisco, em Alagoas. O lugar ficou conhecido pelo talento de seus artes\xE3os."
 --- !u!65 &874040794
 BoxCollider:
@@ -30277,90 +30461,6 @@ Transform:
   - {fileID: 1225709630}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &953338470
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 953338471}
-  - component: {fileID: 953338473}
-  - component: {fileID: 953338472}
-  m_Layer: 0
-  m_Name: AreaInteracao (4)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
-  m_IsActive: 1
---- !u!4 &953338471
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 953338470}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: 1, z: -0, w: -0}
-  m_LocalPosition: {x: -4.408413, y: 0, z: 15.100419}
-  m_LocalScale: {x: 1.16298, y: 1, z: 0.83333343}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 751904858}
-  m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
---- !u!114 &953338472
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 953338470}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1e29c4abfc80bfd4fb0db56fc868584f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::InteracaoBarraca
-  nomeBarraca: "Barraca de \xCDm\xE3"
-  mensagem: "Bem-vindo \xE0 barraca de im\xE3s! Leve uma lembran\xE7a de Macei\xF3 para a sua casa!"
-  somenteInformativo: 0
-  ehMissao: 1
-  nomeItem: "\xCDm\xE3"
-  quantidadeItem: 1
-  preco: 18
-  idObjetivo: ima
-  textoObjetivo: "Comprar tr\xEAs im\xE3s"
-  ordem: 3
-  pergunta: "O im\xE3 custa 8 reais, mas tr\xEAs im\xE3s custam 20 reais. Qual \xE9 o valor do desconto? "
-  alternativas:
-  - R$ 4,00
-  - R$ 5,00
-  - R$ 3,00
-  - R$ 6,00
-  respostaCorreta: 0
-  curiosidade: "Os \xEDm\xE3s s\xE3o miniaturas aut\xEAnticas das maiores express\xF5es art\xEDsticas e tradi\xE7\xF5es do estado."
---- !u!65 &953338473
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 953338470}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 1
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 4.492416, y: 2.700808, z: 4.0920506}
-  m_Center: {x: -0.000753975, y: 1.1495968, z: 0.25982106}
 --- !u!1001 &954159188
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -32123,143 +32223,6 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 017237739cc14f548b8803048404a909, type: 3}
---- !u!1001 &1022323105
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 2138773327}
-    m_Modifications:
-    - target: {fileID: -8909661110700817271, guid: e1000f195f5a4b7459c6362b64e5d85f, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 2147483647
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: e1000f195f5a4b7459c6362b64e5d85f, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 1.8
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: e1000f195f5a4b7459c6362b64e5d85f, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 1.8
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: e1000f195f5a4b7459c6362b64e5d85f, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -23.55397
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: e1000f195f5a4b7459c6362b64e5d85f, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: e1000f195f5a4b7459c6362b64e5d85f, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -15.909579
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: e1000f195f5a4b7459c6362b64e5d85f, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0.7071068
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: e1000f195f5a4b7459c6362b64e5d85f, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: e1000f195f5a4b7459c6362b64e5d85f, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0.7071068
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: e1000f195f5a4b7459c6362b64e5d85f, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: e1000f195f5a4b7459c6362b64e5d85f, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: e1000f195f5a4b7459c6362b64e5d85f, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 90
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: e1000f195f5a4b7459c6362b64e5d85f, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -7520610899682764432, guid: e1000f195f5a4b7459c6362b64e5d85f, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 2147483647
-      objectReference: {fileID: 0}
-    - target: {fileID: -6566928174753763943, guid: e1000f195f5a4b7459c6362b64e5d85f, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 2147483647
-      objectReference: {fileID: 0}
-    - target: {fileID: -4780386454415639283, guid: e1000f195f5a4b7459c6362b64e5d85f, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 2147483647
-      objectReference: {fileID: 0}
-    - target: {fileID: -4100829657750367870, guid: e1000f195f5a4b7459c6362b64e5d85f, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 2147483647
-      objectReference: {fileID: 0}
-    - target: {fileID: -1954320542642423435, guid: e1000f195f5a4b7459c6362b64e5d85f, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 2147483647
-      objectReference: {fileID: 0}
-    - target: {fileID: -778240206958799141, guid: e1000f195f5a4b7459c6362b64e5d85f, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 2147483647
-      objectReference: {fileID: 0}
-    - target: {fileID: 106985143502879978, guid: e1000f195f5a4b7459c6362b64e5d85f, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 2147483647
-      objectReference: {fileID: 0}
-    - target: {fileID: 358876121147313428, guid: e1000f195f5a4b7459c6362b64e5d85f, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 2147483647
-      objectReference: {fileID: 0}
-    - target: {fileID: 454272435926282610, guid: e1000f195f5a4b7459c6362b64e5d85f, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 2147483647
-      objectReference: {fileID: 0}
-    - target: {fileID: 919132149155446097, guid: e1000f195f5a4b7459c6362b64e5d85f, type: 3}
-      propertyPath: m_Name
-      value: Barraca_Tecidos
-      objectReference: {fileID: 0}
-    - target: {fileID: 919132149155446097, guid: e1000f195f5a4b7459c6362b64e5d85f, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 2147483647
-      objectReference: {fileID: 0}
-    - target: {fileID: 2333880419216364135, guid: e1000f195f5a4b7459c6362b64e5d85f, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 2147483647
-      objectReference: {fileID: 0}
-    - target: {fileID: 3466214404090876477, guid: e1000f195f5a4b7459c6362b64e5d85f, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 2147483647
-      objectReference: {fileID: 0}
-    - target: {fileID: 3759173212099732152, guid: e1000f195f5a4b7459c6362b64e5d85f, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 2147483647
-      objectReference: {fileID: 0}
-    - target: {fileID: 4316146035376550082, guid: e1000f195f5a4b7459c6362b64e5d85f, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 2147483647
-      objectReference: {fileID: 0}
-    - target: {fileID: 6188881153576903396, guid: e1000f195f5a4b7459c6362b64e5d85f, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 2147483647
-      objectReference: {fileID: 0}
-    - target: {fileID: 7035425310881294667, guid: e1000f195f5a4b7459c6362b64e5d85f, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 2147483647
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects:
-    - {fileID: -1954320542642423435, guid: e1000f195f5a4b7459c6362b64e5d85f, type: 3}
-    m_AddedGameObjects:
-    - targetCorrespondingSourceObject: {fileID: -8679921383154817045, guid: e1000f195f5a4b7459c6362b64e5d85f, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 704999269}
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: e1000f195f5a4b7459c6362b64e5d85f, type: 3}
 --- !u!1 &1032327373
 GameObject:
   m_ObjectHideFlags: 0
@@ -32306,23 +32269,23 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::InteracaoBarraca
   nomeBarraca: Barraca de Barro
-  mensagem: "Bem-vindo \xE0 barraca de artefatos de barro! O artesanato de barrro \xE9 uma forma de arte milenar que se transformou em tradi\xE7\xE3o no Nordeste."
+  mensagem: "Boas-vindas! Nossas panelas de barro s\xE3o feitas \xE0 m\xE3o. Vamos acertar a conta?"
   somenteInformativo: 0
   ehMissao: 1
-  nomeItem: Jarro de barro
+  nomeItem: Panela de barro
   quantidadeItem: 1
-  preco: 18
+  preco: 9
   idObjetivo: barro
-  textoObjetivo: Comprar um jarro de barro
+  textoObjetivo: Comprar 1 panela de barro
   ordem: 1
-  pergunta: "O jarro custa 25 reais. Mas hoje est\xE1 com 10% de desconto. Quanto voc\xEA pagar\xE1 no jarro? "
+  pergunta: "Voc\xEA e mais 3 amigos v\xE3o dividir igualmente uma panela de barro de R$ 36,00. Quanto cada um paga?"
   alternativas:
-  - R$ 21,50
-  - R$ 22,50
-  - R$ 22,00
-  - R$ 21,00
+  - R$ 6,00
+  - R$ 9,00
+  - R$ 12,00
+  - R$ 18,00
   respostaCorreta: 1
-  curiosidade: 
+  curiosidade: "O artesanato de barrro \xE9 uma forma de arte milenar que se transformou em tradi\xE7\xE3o no Nordeste."
 --- !u!65 &1032327376
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -38819,7 +38782,10 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: -8679921383154817045, guid: 07b62245737e4f54cad282ddc603f13e, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1927155064}
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 07b62245737e4f54cad282ddc603f13e, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1462362757}
   m_SourcePrefab: {fileID: 100100000, guid: 07b62245737e4f54cad282ddc603f13e, type: 3}
 --- !u!4 &1189365959 stripped
 Transform:
@@ -40541,6 +40507,90 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1245982220}
   m_Mesh: {fileID: -6185963829058013516, guid: f47c95f90bc14e649961798aff58879b, type: 3}
+--- !u!1 &1246436277
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1246436278}
+  - component: {fileID: 1246436280}
+  - component: {fileID: 1246436279}
+  m_Layer: 0
+  m_Name: AreaInteracao (5)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 2147483647
+  m_IsActive: 1
+--- !u!4 &1246436278
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1246436277}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.72, y: 0, z: -0.22}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 761890240}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1246436279
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1246436277}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e29c4abfc80bfd4fb0db56fc868584f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::InteracaoBarraca
+  nomeBarraca: Monumento ao Guerreiro Alagoano
+  mensagem: "Seja bem-vindo! Nossos vestidos s\xE3o de fil\xE9, bordado \xE0 m\xE3o pelas rendeiras. Hoje tem promo\xE7\xE3o!"
+  somenteInformativo: 1
+  ehMissao: 0
+  nomeItem: "Vestido de fil\xE9"
+  quantidadeItem: 1
+  preco: 31
+  idObjetivo: monumento
+  textoObjetivo: "Comprar 1 vestido de fil\xE9"
+  ordem: 0
+  pergunta: "Um vestido de fil\xE9 custa R$ 62,00. Hoje ele est\xE1 sendo vendido por 1/2 do valor. Quanto voc\xEA paga?"
+  alternativas:
+  - R$ 22,00
+  - R$ 24,00
+  - R$ 31,00
+  - R$ 36,00
+  respostaCorreta: 2
+  curiosidade: "O Guerreiro \xE9 um dos folguedos mais tradicionais de Alagoas, apresentado em festas de Natal e Reis, com m\xFAsica, dan\xE7a e cantoria. Os brincantes usam chap\xE9us altos enfeitados com espelhos, fitas e flores. Foi reconhecido como Patrim\xF4nio Cultural Imaterial de Alagoas em 2019."
+--- !u!65 &1246436280
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1246436277}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 14.846416, y: 5.886863, z: 12.108942}
+  m_Center: {x: -1.5910321, y: 1.1958413, z: -1.3536962}
 --- !u!1001 &1255749374
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -42324,7 +42374,7 @@ MonoBehaviour:
   preco: 21
   idObjetivo: mel
   textoObjetivo: Comprar 3 potes de mel
-  ordem: 5
+  ordem: 3
   pergunta: "Um pote de mel custa R$ 7,00. Voc\xEA leva 3 potes. Quanto vai pagar?"
   alternativas:
   - R$ 24,00
@@ -42348,12 +42398,12 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 3.4, y: 2, z: 1.2}
-  m_Center: {x: 0, y: 1, z: 1.45}
+  m_Size: {x: 4.492416, y: 2.700808, z: 4.0920506}
+  m_Center: {x: -0.000753975, y: 1.1495968, z: 0.25982106}
 --- !u!4 &1322384420 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: f1bec49e3bbae5a4199373e754d1387c, type: 3}
@@ -46295,6 +46345,32 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f1bec49e3bbae5a4199373e754d1387c, type: 3}
+--- !u!1 &1462362756 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 07b62245737e4f54cad282ddc603f13e, type: 3}
+  m_PrefabInstance: {fileID: 1189365958}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &1462362757
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1462362756}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 4.5475764, y: 3.391235, z: 3.857233}
+  m_Center: {x: 0.0011316302, y: 1.6390833, z: 0.020257711}
 --- !u!1001 &1465403004
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -50175,21 +50251,21 @@ MonoBehaviour:
   nomeBarraca: "Barraca de \xCDm\xE3"
   mensagem: "Bem-vindo \xE0 barraca de im\xE3s! Leve uma lembran\xE7a de Macei\xF3 para a sua casa!"
   somenteInformativo: 0
-  ehMissao: 1
+  ehMissao: 0
   nomeItem: "\xCDm\xE3"
   quantidadeItem: 1
-  preco: 18
+  preco: 8
   idObjetivo: ima
-  textoObjetivo: "Comprar tr\xEAs im\xE3s"
-  ordem: 3
-  pergunta: "O im\xE3 custa 8 reais, mas tr\xEAs im\xE3s custam 20 reais. Qual \xE9 o valor do desconto? "
+  textoObjetivo: 
+  ordem: 0
+  pergunta: "Um \xEDm\xE3 custa R$ 10,00 e est\xE1 com 20% de desconto. Quanto voc\xEA paga?"
   alternativas:
-  - R$ 4,00
-  - R$ 5,00
-  - R$ 3,00
-  - R$ 6,00
-  respostaCorreta: 0
-  curiosidade: "Os \xEDm\xE3s s\xE3o miniaturas aut\xEAnticas das maiores express\xF5es art\xEDsticas e tradi\xE7\xF5es do estado."
+  - R$ 2,00
+  - R$ 8,00
+  - R$ 9,00
+  - R$ 12,00
+  respostaCorreta: 1
+  curiosidade: "Os \xEDm\xE3s de Alagoas costumam mostrar cart\xF5es-postais como as praias de Macei\xF3 e as piscinas naturais da Paju\xE7ara."
 --- !u!65 &1595338017
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -51446,24 +51522,24 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1e29c4abfc80bfd4fb0db56fc868584f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::InteracaoBarraca
-  nomeBarraca: Barraca de vestidos
-  mensagem: "Bem-vindo \xE0 barraca de vestidos! O artesanato de barrro \xE9 uma forma de arte milenar que se transformou em tradi\xE7\xE3o no Nordeste."
+  nomeBarraca: "Barraca de Vestidos de Fil\xE9"
+  mensagem: "Seja bem-vindo! Nossos vestidos s\xE3o de fil\xE9, bordado \xE0 m\xE3o pelas rendeiras. Hoje tem promo\xE7\xE3o!"
   somenteInformativo: 0
   ehMissao: 1
-  nomeItem: Vestido
+  nomeItem: "Vestido de fil\xE9"
   quantidadeItem: 1
-  preco: 30
+  preco: 31
   idObjetivo: vestido
-  textoObjetivo: Comprar um vestido
+  textoObjetivo: "Comprar 1 vestido de fil\xE9"
   ordem: 0
-  pergunta: "O jarro custa 20 reais. Mas hoje est\xE1 com 10% de desconto. Quanto voc\xEA pagar\xE1 no jarro? "
+  pergunta: "Um vestido de fil\xE9 custa R$ 62,00. Hoje ele est\xE1 sendo vendido por 1/2 do valor. Quanto voc\xEA paga?"
   alternativas:
-  - R$ 74,00
-  - R$ 76,00
-  - R$ 80,00
-  - R$ 82,00
-  respostaCorreta: 1
-  curiosidade: 
+  - R$ 22,00
+  - R$ 24,00
+  - R$ 31,00
+  - R$ 36,00
+  respostaCorreta: 2
+  curiosidade: "O fil\xE9 \xE9 um bordado feito \xE0 m\xE3o sobre uma rede, tradicional de Alagoas. As rendeiras do Pontal da Barra, em Macei\xF3, passam essa arte de gera\xE7\xE3o em gera\xE7\xE3o"
 --- !u!65 &1620781932
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -54405,11 +54481,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1739167811}
   m_Mesh: {fileID: -127755314812073196, guid: f47c95f90bc14e649961798aff58879b, type: 3}
---- !u!4 &1748851677 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: e1000f195f5a4b7459c6362b64e5d85f, type: 3}
-  m_PrefabInstance: {fileID: 1022323105}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1751327864
 GameObject:
   m_ObjectHideFlags: 0
@@ -56966,24 +57037,24 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1e29c4abfc80bfd4fb0db56fc868584f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::InteracaoBarraca
-  nomeBarraca: Barraca de vestidos
-  mensagem: "Bem-vindo \xE0 barraca de vestidos! O artesanato de barrro \xE9 uma forma de arte milenar que se transformou em tradi\xE7\xE3o no Nordeste."
+  nomeBarraca: "Barraca de Vestidos de Fil\xE9"
+  mensagem: "Seja bem-vindo! Nossos vestidos s\xE3o de fil\xE9, bordado \xE0 m\xE3o pelas rendeiras. Hoje tem promo\xE7\xE3o!"
   somenteInformativo: 0
   ehMissao: 1
-  nomeItem: Vestido
+  nomeItem: "Vestido de fil\xE9"
   quantidadeItem: 1
-  preco: 30
+  preco: 31
   idObjetivo: vestido
-  textoObjetivo: Comprar um vestido
+  textoObjetivo: "Comprar 1 vestido de fil\xE9"
   ordem: 0
-  pergunta: "O jarro custa 20 reais. Mas hoje est\xE1 com 10% de desconto. Quanto voc\xEA pagar\xE1 no jarro? "
+  pergunta: "Um vestido de fil\xE9 custa R$ 62,00. Hoje ele est\xE1 sendo vendido por 1/2 do valor. Quanto voc\xEA paga?"
   alternativas:
-  - R$ 74,00
-  - R$ 76,00
-  - R$ 80,00
-  - R$ 82,00
-  respostaCorreta: 1
-  curiosidade: 
+  - R$ 22,00
+  - R$ 24,00
+  - R$ 31,00
+  - R$ 36,00
+  respostaCorreta: 2
+  curiosidade: "O fil\xE9 \xE9 um bordado feito \xE0 m\xE3o sobre uma rede, tradicional de Alagoas. As rendeiras do Pontal da Barra, em Macei\xF3, passam essa arte de gera\xE7\xE3o em gera\xE7\xE3o"
 --- !u!65 &1865233764
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -58279,7 +58350,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
-    m_AddedGameObjects: []
+    m_AddedGameObjects:
+    - targetCorrespondingSourceObject: {fileID: -8679921383154817045, guid: cc7999de9adb19844b51725d6af5c6f1, type: 3}
+      insertIndex: 0
+      addedObject: {fileID: 1246436278}
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: cc7999de9adb19844b51725d6af5c6f1, type: 3}
       insertIndex: -1
@@ -58656,7 +58730,7 @@ MonoBehaviour:
   preco: 21
   idObjetivo: mel
   textoObjetivo: Comprar 3 potes de mel
-  ordem: 5
+  ordem: 3
   pergunta: "Um pote de mel custa R$ 7,00. Voc\xEA leva 3 potes. Quanto vai pagar?"
   alternativas:
   - R$ 24,00
@@ -58680,12 +58754,12 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 3.4, y: 2, z: 1.2}
-  m_Center: {x: 0, y: 1, z: 1.45}
+  m_Size: {x: 4.492416, y: 2.700808, z: 4.0920506}
+  m_Center: {x: -0.000753975, y: 1.1495968, z: 0.25982106}
 --- !u!1 &1927986616
 GameObject:
   m_ObjectHideFlags: 0
@@ -59149,8 +59223,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 4.6486425, y: 3.3669136, z: 3.3517284}
-  m_Center: {x: -0.03352666, y: 1.6783704, z: -0.1106329}
+  m_Size: {x: 4.5475764, y: 3.391235, z: 3.857233}
+  m_Center: {x: 0.0011316302, y: 1.6390833, z: 0.020257711}
 --- !u!1 &1937512574
 GameObject:
   m_ObjectHideFlags: 0
@@ -62909,23 +62983,23 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::InteracaoBarraca
   nomeBarraca: Barraca de Barro
-  mensagem: "Bem-vindo \xE0 barraca de artefatos de barro! O artesanato de barrro \xE9 uma forma de arte milenar que se transformou em tradi\xE7\xE3o no Nordeste."
+  mensagem: "Boas-vindas! Nossas panelas de barro s\xE3o feitas \xE0 m\xE3o. Vamos acertar a conta?"
   somenteInformativo: 0
   ehMissao: 1
-  nomeItem: Jarro de barro
+  nomeItem: Panela de barro
   quantidadeItem: 1
-  preco: 18
+  preco: 9
   idObjetivo: barro
-  textoObjetivo: Comprar um jarro de barro
+  textoObjetivo: Comprar 1 panela de barro
   ordem: 1
-  pergunta: "O jarro custa 25 reais. Mas hoje est\xE1 com 10% de desconto. Quanto voc\xEA pagar\xE1 no jarro? "
+  pergunta: "Voc\xEA e mais 3 amigos v\xE3o dividir igualmente uma panela de barro de R$ 36,00. Quanto cada um paga?"
   alternativas:
-  - R$ 21,50
-  - R$ 22,50
-  - R$ 22,00
-  - R$ 21,00
+  - R$ 6,00
+  - R$ 9,00
+  - R$ 12,00
+  - R$ 18,00
   respostaCorreta: 1
-  curiosidade: 
+  curiosidade: "O artesanato de barrro \xE9 uma forma de arte milenar que se transformou em tradi\xE7\xE3o no Nordeste."
 --- !u!65 &2054647694
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -64131,6 +64205,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: -8679921383154817045, guid: 2b9e73c410c9e494ba8a67f3b2d65150, type: 3}
       insertIndex: -1
       addedObject: {fileID: 867427469}
+    - targetCorrespondingSourceObject: {fileID: -8679921383154817045, guid: 2b9e73c410c9e494ba8a67f3b2d65150, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 605302767}
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2b9e73c410c9e494ba8a67f3b2d65150, type: 3}
 --- !u!4 &2093787150 stripped
@@ -65703,7 +65780,6 @@ Transform:
   - {fileID: 1416407440}
   - {fileID: 2135604591}
   - {fileID: 107313169}
-  - {fileID: 1748851677}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!65 &2138773328
