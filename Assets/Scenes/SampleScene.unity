@@ -5660,6 +5660,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::InteracaoBarraca
   nomeBarraca: Barraca de Bebidas
   mensagem: "Bem-vindo \xE0 barraca de bebidas! Hoje tem suco gelado de fruta da terra. Resolva o desafio e leve o seu!"
+  somenteInformativo: 0
   ehMissao: 1
   nomeItem: Suco
   quantidadeItem: 3
@@ -7144,6 +7145,42 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 228007467}
   m_Mesh: {fileID: -9081379553268797190, guid: f47c95f90bc14e649961798aff58879b, type: 3}
+--- !u!1 &231052175
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 231052176}
+  m_Layer: 0
+  m_Name: manequins
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &231052176
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 231052175}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -1.19, y: -0, z: -12.9}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1883737828}
+  - {fileID: 687181637}
+  - {fileID: 2129351345}
+  - {fileID: 1278276763}
+  - {fileID: 1414332618}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &235728849
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -15286,7 +15323,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 953328955}
     m_Modifications:
     - target: {fileID: 3899975520890597445, guid: 225aaca584cdda742ba722551482cbaa, type: 3}
       propertyPath: m_Name
@@ -15298,7 +15335,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5566987434348603669, guid: 225aaca584cdda742ba722551482cbaa, type: 3}
       propertyPath: m_LocalScale.y
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5566987434348603669, guid: 225aaca584cdda742ba722551482cbaa, type: 3}
       propertyPath: m_LocalScale.z
@@ -15306,7 +15343,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5566987434348603669, guid: 225aaca584cdda742ba722551482cbaa, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -5.4000006
+      value: -13.4645605
       objectReference: {fileID: 0}
     - target: {fileID: 5566987434348603669, guid: 225aaca584cdda742ba722551482cbaa, type: 3}
       propertyPath: m_LocalPosition.y
@@ -15314,7 +15351,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5566987434348603669, guid: 225aaca584cdda742ba722551482cbaa, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -4.1000004
+      value: -4.7944403
       objectReference: {fileID: 0}
     - target: {fileID: 5566987434348603669, guid: 225aaca584cdda742ba722551482cbaa, type: 3}
       propertyPath: m_LocalRotation.w
@@ -15401,6 +15438,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::InteracaoBarraca
   nomeBarraca: Barraca de Bebidas
   mensagem: "Bem-vindo \xE0 barraca de bebidas! Hoje tem suco gelado de fruta da terra. Resolva o desafio e leve o seu!"
+  somenteInformativo: 0
   ehMissao: 1
   nomeItem: Suco
   quantidadeItem: 3
@@ -18929,59 +18967,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 614491989}
   m_Mesh: {fileID: 9027982775882604532, guid: f47c95f90bc14e649961798aff58879b, type: 3}
---- !u!1 &615216351
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 615216352}
-  - component: {fileID: 615216353}
-  m_Layer: 0
-  m_Name: box_collider
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &615216352
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 615216351}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!65 &615216353
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 615216351}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 4.6486425, y: 3.3669136, z: 3.3517284}
-  m_Center: {x: -0.03352666, y: 1.6783704, z: -0.1106329}
 --- !u!1001 &616466756
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -21676,11 +21661,11 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 231052176}
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: 7b3c462e422bacd4bb9bd67c6c1d985b, type: 3}
       propertyPath: m_LocalScale.x
-      value: 1.9
+      value: 1.9000001
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 7b3c462e422bacd4bb9bd67c6c1d985b, type: 3}
       propertyPath: m_LocalScale.y
@@ -21688,19 +21673,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 7b3c462e422bacd4bb9bd67c6c1d985b, type: 3}
       propertyPath: m_LocalScale.z
-      value: 1.9
+      value: 1.9000001
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 7b3c462e422bacd4bb9bd67c6c1d985b, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -5.87
+      value: -4.68
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 7b3c462e422bacd4bb9bd67c6c1d985b, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.00000019028892
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 7b3c462e422bacd4bb9bd67c6c1d985b, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 13.05
+      value: 25.95
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 7b3c462e422bacd4bb9bd67c6c1d985b, type: 3}
       propertyPath: m_LocalRotation.w
@@ -21768,6 +21753,11 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.7313368, y: 1.8911825, z: 0.5874559}
   m_Center: {x: -0.0045156325, y: 0.90434724, z: 0.004194975}
+--- !u!4 &687181637 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 7b3c462e422bacd4bb9bd67c6c1d985b, type: 3}
+  m_PrefabInstance: {fileID: 687181634}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &692089347
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -23356,6 +23346,9 @@ MonoBehaviour:
   - {fileID: 1962502442}
   - {fileID: 173488744}
   objetivosAutomaticos: 1
+  mostrarOrcamento: 0
+  dicaVendedor: E  Falar com o vendedor
+  dicaInformativo: E  Ler a placa
 --- !u!114 &732663129
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -26144,7 +26137,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: dff85252152c662489f8d2fb49b73312, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -8.483971
+      value: -8.25397
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: dff85252152c662489f8d2fb49b73312, type: 3}
       propertyPath: m_LocalPosition.y
@@ -27294,6 +27287,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::InteracaoBarraca
   nomeBarraca: Barraca de Bonecos
   mensagem: "Bem-vindo! Aqui temos bonecos artesanais inspirados na cultura e nas tradi\xE7\xF5es de Alagoas."
+  somenteInformativo: 0
   ehMissao: 1
   nomeItem: "\xCDm\xE3"
   quantidadeItem: 1
@@ -30276,6 +30270,7 @@ Transform:
   m_LocalScale: {x: 1, y: 2, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
+  - {fileID: 1577924497}
   - {fileID: 1085379231}
   - {fileID: 77178791}
   - {fileID: 1577250520}
@@ -30338,6 +30333,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::InteracaoBarraca
   nomeBarraca: "Barraca de \xCDm\xE3"
   mensagem: "Bem-vindo \xE0 barraca de im\xE3s! Leve uma lembran\xE7a de Macei\xF3 para a sua casa!"
+  somenteInformativo: 0
   ehMissao: 1
   nomeItem: "\xCDm\xE3"
   quantidadeItem: 1
@@ -32425,6 +32421,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::InteracaoBarraca
   nomeBarraca: Barraca de Barro
   mensagem: "Bem-vindo \xE0 barraca de artefatos de barro! O artesanato de barrro \xE9 uma forma de arte milenar que se transformou em tradi\xE7\xE3o no Nordeste."
+  somenteInformativo: 0
   ehMissao: 1
   nomeItem: Jarro de barro
   quantidadeItem: 1
@@ -32459,8 +32456,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 4.492416, y: 2.700808, z: 4.0920506}
-  m_Center: {x: -0.000753975, y: 1.1495968, z: 0.25982106}
+  m_Size: {x: 4.492416, y: 2.7008085, z: 3.2768724}
+  m_Center: {x: -0.0007539326, y: 1.1495969, z: 0.66741014}
 --- !u!1001 &1032384501
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -36930,7 +36927,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: f47c95f90bc14e649961798aff58879b, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -8.483971
+      value: -8.25397
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: f47c95f90bc14e649961798aff58879b, type: 3}
       propertyPath: m_LocalPosition.y
@@ -41434,7 +41431,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 231052176}
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: 7037078c0cedd4244ba3030258097151, type: 3}
       propertyPath: m_LocalScale.x
@@ -41450,15 +41447,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 7037078c0cedd4244ba3030258097151, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -1.19
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 7037078c0cedd4244ba3030258097151, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.00000016210925
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 7037078c0cedd4244ba3030258097151, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -12.9
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 7037078c0cedd4244ba3030258097151, type: 3}
       propertyPath: m_LocalRotation.w
@@ -41466,7 +41463,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 7037078c0cedd4244ba3030258097151, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 7037078c0cedd4244ba3030258097151, type: 3}
       propertyPath: m_LocalRotation.y
@@ -41526,6 +41523,11 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.71537155, y: 1.8266643, z: 0.7287679}
   m_Center: {x: -0.008693069, y: 0.8877812, z: -0.010191202}
+--- !u!4 &1278276763 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 7037078c0cedd4244ba3030258097151, type: 3}
+  m_PrefabInstance: {fileID: 1278276760}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1280040598
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -42534,6 +42536,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::InteracaoBarraca
   nomeBarraca: Barraca de Mel
   mensagem: "Ol\xE1! Aqui o mel \xE9 puro, direto do produtor. Resolva a conta e leve alguns potes!"
+  somenteInformativo: 0
   ehMissao: 1
   nomeItem: Pote de mel
   quantidadeItem: 3
@@ -45275,7 +45278,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 231052176}
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: 07f99dad8cbbad54d912c4940ad6d724, type: 3}
       propertyPath: m_LocalScale.x
@@ -45291,15 +45294,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 07f99dad8cbbad54d912c4940ad6d724, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -4.9
+      value: -3.71
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 07f99dad8cbbad54d912c4940ad6d724, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.0000000352876
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 07f99dad8cbbad54d912c4940ad6d724, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 4.06
+      value: 16.96
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 07f99dad8cbbad54d912c4940ad6d724, type: 3}
       propertyPath: m_LocalRotation.w
@@ -45307,7 +45310,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 07f99dad8cbbad54d912c4940ad6d724, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 07f99dad8cbbad54d912c4940ad6d724, type: 3}
       propertyPath: m_LocalRotation.y
@@ -45315,7 +45318,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 07f99dad8cbbad54d912c4940ad6d724, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 07f99dad8cbbad54d912c4940ad6d724, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -45367,6 +45370,11 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.7200122, y: 1.7233834, z: 0.66885424}
   m_Center: {x: 0.006162405, y: 0.9183719, z: -0.044909954}
+--- !u!4 &1414332618 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 07f99dad8cbbad54d912c4940ad6d724, type: 3}
+  m_PrefabInstance: {fileID: 1414332615}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1415819867
 GameObject:
   m_ObjectHideFlags: 0
@@ -49480,6 +49488,11 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1577464521}
   m_CullTransparentMesh: 1
+--- !u!4 &1577924497 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5566987434348603669, guid: 225aaca584cdda742ba722551482cbaa, type: 3}
+  m_PrefabInstance: {fileID: 512256389}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1578312903
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -50485,6 +50498,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::InteracaoBarraca
   nomeBarraca: "Barraca de \xCDm\xE3"
   mensagem: "Bem-vindo \xE0 barraca de im\xE3s! Leve uma lembran\xE7a de Macei\xF3 para a sua casa!"
+  somenteInformativo: 0
   ehMissao: 1
   nomeItem: "\xCDm\xE3"
   quantidadeItem: 1
@@ -51758,6 +51772,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::InteracaoBarraca
   nomeBarraca: Barraca de vestidos
   mensagem: "Bem-vindo \xE0 barraca de vestidos! O artesanato de barrro \xE9 uma forma de arte milenar que se transformou em tradi\xE7\xE3o no Nordeste."
+  somenteInformativo: 0
   ehMissao: 1
   nomeItem: Vestido
   quantidadeItem: 1
@@ -51788,12 +51803,12 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 4.266261, y: 3.1319098, z: 3.0692043}
-  m_Center: {x: -0.1138311, y: 1.3651476, z: 0.6118287}
+  m_Size: {x: 4.266261, y: 3.1319098, z: 2.7853386}
+  m_Center: {x: -0.1138311, y: 1.3651476, z: 0.964405}
 --- !u!1 &1622596167
 GameObject:
   m_ObjectHideFlags: 0
@@ -57277,6 +57292,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::InteracaoBarraca
   nomeBarraca: Barraca de vestidos
   mensagem: "Bem-vindo \xE0 barraca de vestidos! O artesanato de barrro \xE9 uma forma de arte milenar que se transformou em tradi\xE7\xE3o no Nordeste."
+  somenteInformativo: 0
   ehMissao: 1
   nomeItem: Vestido
   quantidadeItem: 1
@@ -57311,8 +57327,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 4.266261, y: 3.1319098, z: 3.0692043}
-  m_Center: {x: -0.1138311, y: 1.3651476, z: 0.6118287}
+  m_Size: {x: 4.266261, y: 3.1319098, z: 3.548156}
+  m_Center: {x: -0.1138311, y: 1.3651476, z: 0.85130465}
 --- !u!1001 &1868301974
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -57775,7 +57791,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 231052176}
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: d3a67ebc946524142a915e3ff44c942e, type: 3}
       propertyPath: m_LocalScale.x
@@ -57791,19 +57807,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: d3a67ebc946524142a915e3ff44c942e, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -1.4126394
+      value: -0.22263932
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: d3a67ebc946524142a915e3ff44c942e, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.00000024127053
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: d3a67ebc946524142a915e3ff44c942e, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -22.383917
+      value: -9.483917
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: d3a67ebc946524142a915e3ff44c942e, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.467933
+      value: 0.46793303
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: d3a67ebc946524142a915e3ff44c942e, type: 3}
       propertyPath: m_LocalRotation.x
@@ -57811,7 +57827,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: d3a67ebc946524142a915e3ff44c942e, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0.8837639
+      value: 0.88376397
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: d3a67ebc946524142a915e3ff44c942e, type: 3}
       propertyPath: m_LocalRotation.z
@@ -57831,7 +57847,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: d3a67ebc946524142a915e3ff44c942e, type: 3}
       propertyPath: m_Name
-      value: Manequim_Vestido_File
+      value: manequim_vestido_file
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -57867,6 +57883,11 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.6807949, y: 2.1295831, z: 0.5839809}
   m_Center: {x: -0.037423253, y: 0.8744546, z: 0.005290047}
+--- !u!4 &1883737828 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: d3a67ebc946524142a915e3ff44c942e, type: 3}
+  m_PrefabInstance: {fileID: 1883737825}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1887094408
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -59057,6 +59078,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::InteracaoBarraca
   nomeBarraca: Barraca de Mel
   mensagem: "Ol\xE1! Aqui o mel \xE9 puro, direto do produtor. Resolva a conta e leve alguns potes!"
+  somenteInformativo: 0
   ehMissao: 1
   nomeItem: Pote de mel
   quantidadeItem: 3
@@ -63317,6 +63339,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::InteracaoBarraca
   nomeBarraca: Barraca de Barro
   mensagem: "Bem-vindo \xE0 barraca de artefatos de barro! O artesanato de barrro \xE9 uma forma de arte milenar que se transformou em tradi\xE7\xE3o no Nordeste."
+  somenteInformativo: 0
   ehMissao: 1
   nomeItem: Jarro de barro
   quantidadeItem: 1
@@ -63351,8 +63374,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 4.492416, y: 2.700808, z: 4.0920506}
-  m_Center: {x: -0.000753975, y: 1.1495968, z: 0.25982106}
+  m_Size: {x: 3.857673, y: 2.7008085, z: 3.0858448}
+  m_Center: {x: -0.31812513, y: 1.1495969, z: 0.76292396}
 --- !u!1001 &2055303246
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -65793,7 +65816,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 231052176}
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: 8fe000c76b04d5b4082244ff4dfa6320, type: 3}
       propertyPath: m_LocalScale.x
@@ -65809,15 +65832,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 8fe000c76b04d5b4082244ff4dfa6320, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.43367887
+      value: 0.7563212
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 8fe000c76b04d5b4082244ff4dfa6320, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.00000009384627
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 8fe000c76b04d5b4082244ff4dfa6320, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -21.759235
+      value: -8.859236
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 8fe000c76b04d5b4082244ff4dfa6320, type: 3}
       propertyPath: m_LocalRotation.w
@@ -65885,6 +65908,11 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.85193706, y: 1.6922172, z: 0.67528766}
   m_Center: {x: 0.012820033, y: 0.7368676, z: -0.07277595}
+--- !u!4 &2129351345 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 8fe000c76b04d5b4082244ff4dfa6320, type: 3}
+  m_PrefabInstance: {fileID: 2129351342}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &2135604589
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -66151,10 +66179,4 @@ SceneRoots:
   - {fileID: 1919534203}
   - {fileID: 1190406622}
   - {fileID: 1585795284}
-  - {fileID: 615216352}
-  - {fileID: 512256389}
-  - {fileID: 1883737825}
-  - {fileID: 1278276760}
-  - {fileID: 2129351342}
-  - {fileID: 687181634}
-  - {fileID: 1414332615}
+  - {fileID: 231052176}
