@@ -2,9 +2,7 @@ using UnityEngine;
 using UnityEngine.Rendering;
 
 /// <summary>
-/// Cuida da aparência (cores/acessórios aleatórios) e da animação procedural
-/// (andar, respirar, acenar) de qualquer personagem da feira.
-/// Funciona sem Animator: a velocidade é lida pelo deslocamento do objeto.
+/// Cuida da aparência (cores/acessórios aleatórios) e da animação procedural de qualquer personagem da feira.
 /// </summary>
 public class PersonagemVisual : MonoBehaviour
 {

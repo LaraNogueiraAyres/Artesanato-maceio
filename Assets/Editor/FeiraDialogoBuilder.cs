@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 /// <summary>
 /// Cria o painel de diálogo das barracas no MESMO estilo do FeiraUIBuilder.
-/// Menu: Feira > 6 - Criar Painel de Dialogo   (rode depois do passo 5)
+/// Menu: Feira > 6 - Criar Painel de Dialogo  
 /// </summary>
 public static class FeiraDialogoBuilder
 {
